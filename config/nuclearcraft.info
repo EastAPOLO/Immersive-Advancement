@@ -1,0 +1,175 @@
+# Configuration file
+
+output {
+    S:fission_placement <
+        water_sink -> one cell
+        iron_sink -> one moderator
+        redstone_sink -> one cell && one moderator
+        quartz_sink -> one redstone sink
+        obsidian_sink -> two axial glowstone sinks
+        nether_brick_sink -> one obsidian sink
+        glowstone_sink -> two moderators
+        lapis_sink -> one cell && one casing
+        gold_sink -> exactly two iron sinks
+        prismarine_sink -> two water sinks
+        slime_sink -> exactly one water sink && two lead sinks
+        end_stone_sink -> one reflector
+        purpur_sink -> one reflector && one iron sink
+        diamond_sink -> one cell && one gold sink
+        emerald_sink -> one moderator && one prismarine sink
+        copper_sink -> one water sink
+        tin_sink -> two axial lapis sinks
+        lead_sink -> one iron sink
+        boron_sink -> exactly one quartz sink && one casing
+        lithium_sink -> exactly two axial lead sinks && one casing
+        magnesium_sink -> exactly one moderator && one casing
+        manganese_sink -> two cells
+        aluminum_sink -> one quartz sink && one lapis sink
+        silver_sink -> two glowstone sinks && one tin sink
+        fluorite_sink -> one gold sink && one prismarine sink
+        villiaumite_sink -> one redstone sink && one end_stone sink
+        carobbiite_sink -> one end_stone sink && one copper sink
+        arsenic_sink -> two axial reflectors
+        liquid_nitrogen_sink -> two copper sinks && one purpur sink
+        liquid_helium_sink -> exactly two redstone sinks
+        enderium_sink -> three moderators
+        cryotheum_sink -> three cells
+        standard_heater -> one vessel
+        iron_heater -> one moderator
+        redstone_heater -> one vessel && one moderator
+        quartz_heater -> one redstone heater
+        obsidian_heater -> two axial glowstone heaters
+        nether_brick_heater -> one obsidian heater
+        glowstone_heater -> two moderators
+        lapis_heater -> one vessel && one casing
+        gold_heater -> exactly two iron heaters
+        prismarine_heater -> two standard heaters
+        slime_heater -> exactly one standard heater && two lead heaters
+        end_stone_heater -> one reflector
+        purpur_heater -> one reflector && one iron heater
+        diamond_heater -> one vessel && one gold heater
+        emerald_heater -> one moderator && one prismarine heater
+        copper_heater -> one standard heater
+        tin_heater -> two axial lapis heaters
+        lead_heater -> one iron heater
+        boron_heater -> exactly one quartz heater && one casing
+        lithium_heater -> exactly two axial lead heaters && one casing
+        magnesium_heater -> exactly one moderator && one casing
+        manganese_heater -> two vessels
+        aluminum_heater -> one quartz heater && one lapis heater
+        silver_heater -> two glowstone heaters && one tin heater
+        fluorite_heater -> one gold heater && one prismarine heater
+        villiaumite_heater -> one redstone heater && one end_stone heater
+        carobbiite_heater -> one end_stone heater && one copper heater
+        arsenic_heater -> two axial reflectors
+        liquid_nitrogen_heater -> two copper heaters && one purpur heater
+        liquid_helium_heater -> exactly two redstone heaters
+        enderium_heater -> three moderators
+        cryotheum_heater -> three vessels
+        pyro_sink -> five cells
+        aero_sink -> one liquid_nitrogen sink || one liquid_helium sink
+        petro_sink -> four moderators
+        nickel_sink -> two axial obsidian sinks
+        platinum_sink -> four iron sinks && exactly zero casing
+        iridium_sink -> six cells
+        signalum_sink -> one redstone sink && one ferroboron sink
+        lumium_sink -> four glowstone sinks
+        mana_dust_sink -> exactly three casing
+        mithril_sink -> two axial enderium sinks && exactly zero moderator
+        invar_sink -> one lumium sink && one water sink
+        constantan_sink -> one copper sink && one nickel sink
+        bronze_sink -> three copper sinks && one tin sink
+        electrum_sink -> two axial silver sinks
+        pyro_heater -> five cells
+        aero_heater -> one liquid_nitrogen heater || one liquid_helium heater
+        petro_heater -> four moderators
+        nickel_heater -> two axial obsidian heaters
+        platinum_heater -> four iron heaters && exactly zero casing
+        iridium_heater -> six cells
+        signalum_heater -> one redstone heater && one ferroboron heater
+        lumium_heater -> four glowstone heaters
+        mana_dust_heater -> exactly three casing
+        mithril_heater -> two axial enderium heaters && exactly zero moderator
+        invar_heater -> one lumium heater && one water heater
+        constantan_heater -> one copper heater && one nickel heater
+        bronze_heater -> three copper heaters && one tin heater
+        electrum_heater -> two axial silver heaters
+        steel_sink -> three iron sinks
+        ferroboron_sink -> one gold sink && two axial cells
+        tough_alloy_sink -> one villiaumite sink
+        limno2_sink -> two axial lithium sinks && one manganese sink
+        mgb2_sink -> one magnesium sink && one boron sink
+        boron_arsenide_sink -> one steel sink && three lead sinks
+        boron_nitride_sink -> one end_stone sink && one liquid_nitrogen sink
+        rhodochrosite_sink -> one emerald sink && one redstone sink && exactly zero casing
+        zirconium_sink -> two axial gold sinks
+        hard_carbon_sink -> one diamond sink && one moderator
+        extreme_alloy_sink -> one tough_alloy sink && one hard_carbon sink
+        thermoconducting_alloy_sink -> two axial extreme_alloy sinks
+        zircaloy_sink -> one zirconium sink && one casing
+        sic_sic_cmc_sink -> two axial quartz sinks
+        hsla_sink -> two reflectors && one diamond sink
+        smore_sink -> two axial liquid_helium sinks && two axial liquid_nitrogen sinks && two axial thermoconducting_alloy sinks
+        liquid_oxygen_sink -> one lead sink
+        corium_sink -> exactly zero casing
+        sea_lantern_sink -> three prismarine sinks
+        tnt_sink -> one shield
+        bone_sink -> one irradiator
+        milk_sink -> one bone sink
+        brick_sink -> one milk sink && one lead sink
+        lava_sink -> two axial irradiators
+        magma_slime_sink -> one lead sink && one gold sink
+        sponge_sink -> one irradiator && one shield
+        blue_ice_sink -> two shields
+        bismuth_sink -> one shield && exactly two iron sinks
+        glowshroom_sink -> two lava sinks
+        silicon_sink -> one shield && one moderator
+        sic_sink -> one silicon sink && one end_stone sink
+        steel_heater -> three iron heaters
+        ferroboron_heater -> one gold heater && two axial cells
+        tough_alloy_heater -> one villiaumite heater
+        limno2_heater -> two axial lithium heaters && one manganese heater
+        mgb2_heater -> one magnesium heater && one boron heater
+        boron_arsenide_heater -> one steel heater && three lead heaters
+        boron_nitride_heater -> one end_stone heater && one liquid_nitrogen heater
+        rhodochrosite_heater -> one emerald heater && one redstone heater && exactly zero casing
+        zirconium_heater -> two axial gold heaters
+        hard_carbon_heater -> one diamond heater && one moderator
+        extreme_alloy_heater -> one tough_alloy heater && one hard_carbon heater
+        thermoconducting_alloy_heater -> two axial extreme_alloy heaters
+        zircaloy_heater -> one zirconium heater && one casing
+        sic_sic_cmc_heater -> two axial quartz heaters
+        hsla_heater -> two reflectors && one diamond heater
+        smore_heater -> two axial liquid_helium heaters && two axial liquid_nitrogen heaters && two axial thermoconducting_alloy heaters
+        liquid_oxygen_heater -> one lead heater
+        corium_heater -> exactly zero casing
+        sea_lantern_heater -> three prismarine heaters
+        tnt_heater -> one shield
+        bone_heater -> one irradiator
+        milk_heater -> one bone heater
+        brick_heater -> one milk heater && one lead heaters
+        lava_heater -> two axial irradiators
+        magma_slime_heater -> one lead heater && one gold heater
+        sponge_heater -> one irradiator && one shield
+        blue_ice_heater -> two shields
+        bismuth_heater -> one shield && exactly two iron heaters
+        glowshroom_heater -> two lava heaters
+        silicon_heater -> one shield && one moderator
+        sic_heater -> one silicon heater && one end_stone heater
+        certus_sink -> one quartz sink
+        fluix_sink -> one certus sink && one water sink
+        certus_heater -> one quartz heater
+        fluix_heater -> one certus sink && one standard heater
+     >
+    S:turbine_placement <
+        magnesium_coil -> one bearing || one connector
+        beryllium_coil -> one magnesium coils
+        aluminum_coil -> two magnesium coil
+        gold_coil -> one aluminum coil
+        copper_coil -> one beryllium coil
+        silver_coil -> one gold coil && one copper coil
+        connector -> one of any coil
+     >
+}
+
+
