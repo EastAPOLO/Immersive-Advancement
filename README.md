@@ -1,7 +1,8 @@
 # Immersive-Advancement
-A progression oriented modpack with exploration and challenging mobs.
+A progression oriented modpack with exploration and challenging mobs for 1.12.2.
 
 ## Mods
+Below is a list of mods the modpack uses excluding their library deps for those that are curious:
 * Advanced Chimneys
 * AE2 Stuff
 * AI Improvements
