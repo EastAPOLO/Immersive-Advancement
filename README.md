@@ -5,9 +5,9 @@ A progression oriented modpack with exploration and challenging mobs.
 * Advanced Chimneys
 * AE2 Stuff
 * AI Improvements
-* Alternating Flux:
-* Antique Atlas:
-* Apotheosis:
+* Alternating Flux
+* Antique Atlas
+* Apotheosis
 * Applied Energistics 2
 * Aquaculture
 * Atum 2
