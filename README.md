@@ -41,6 +41,7 @@ A progression oriented modpack with exploration and challenging mobs.
 * Fast Workbench
 * FoamFix
 * Galacticraft
+* Geographicraft
 * Golden Airport Pack
 * Hero Aviation Pack
 * ICBM OpenComputers
