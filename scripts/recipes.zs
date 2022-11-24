@@ -31,17 +31,17 @@ var iron_plate = <thermalfoundation:material:32>;
 var gold_plate = <thermalfoundation:material:33>;
 var silicon_plate = <immersiveintelligence:material_plate:5>;
 
-recipes.remove(<immersiveengineering:metal:30>, true);
-recipes.remove(<immersiveengineering:metal:31>, true);
-recipes.remove(<immersiveengineering:metal:32>, true);
-recipes.remove(<immersiveengineering:metal:33>, true);
-recipes.remove(<immersiveengineering:metal:34>, true);
-recipes.remove(<immersiveengineering:metal:36>, true);
-recipes.remove(<immersiveengineering:metal:37>, true);
-recipes.remove(<immersiveengineering:metal:38>, true);
-recipes.remove(<immersiveengineering:metal:39>, true);
-recipes.remove(<immersiveengineering:metal:40>, true);
-recipes.remove(blast_brick, true);
+recipes.remove(<immersiveengineering:metal:30>);
+recipes.remove(<immersiveengineering:metal:31>);
+recipes.remove(<immersiveengineering:metal:32>);
+recipes.remove(<immersiveengineering:metal:33>);
+recipes.remove(<immersiveengineering:metal:34>);
+recipes.remove(<immersiveengineering:metal:36>);
+recipes.remove(<immersiveengineering:metal:37>);
+recipes.remove(<immersiveengineering:metal:38>);
+recipes.remove(<immersiveengineering:metal:39>);
+recipes.remove(<immersiveengineering:metal:40>);
+recipes.remove(blast_brick);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
 
 recipes.addShapeless(copper_plate, [hammer, copper_ingot]);
