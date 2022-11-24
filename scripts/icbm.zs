@@ -31,17 +31,17 @@ var compression_charge = <trinity:compression_charge>;
 var microchip = <opencomputers:material:9>;
 var rocket_fuel = <galacticraftcore:bucket_fuel>;
 
-recipes.remove(nuclear_explosive, true);
-recipes.remove(antimatter_explosive, true);
-recipes.remove(sonic_explosive, true);
-recipes.remove(hypersonic_explosive, true);
-recipes.remove(exothermic_explosive, true);
-recipes.remove(endothermic_explosive, true);
-recipes.remove(incendiary_missile, true);
-recipes.remove(ender_explosive, true);
-recipes.remove(red_matter_explosive, true);
-recipes.remove(anti_gravitational_explosive, true);
-recipes.remove(generic_missile, true);
+recipes.remove(nuclear_explosive);
+recipes.remove(antimatter_explosive);
+recipes.remove(sonic_explosive);
+recipes.remove(hypersonic_explosive);
+recipes.remove(exothermic_explosive);
+recipes.remove(endothermic_explosive);
+recipes.remove(incendiary_missile);
+recipes.remove(ender_explosive);
+recipes.remove(red_matter_explosive);
+recipes.remove(anti_gravitational_explosive);
+recipes.remove(generic_missile);
 
 recipes.addShaped(generic_missile, [
 [null, steel_ingot, null],
