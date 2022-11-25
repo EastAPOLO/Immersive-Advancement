@@ -44,6 +44,9 @@ recipes.remove(<immersiveengineering:metal:40>);
 recipes.remove(blast_brick);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
 
+<ore:oreNaquadah>.add(<stargatefighters:naquadah_ore>);
+<ore:oreNaquadahRaw>.remove(<jsg:naquadah_ore>);
+
 recipes.addShapeless(copper_plate, [hammer, copper_ingot]);
 recipes.addShapeless(aluminium_plate, [hammer, aluminium_ingot]);
 recipes.addShapeless(lead_plate, [hammer, lead_ingot]);
