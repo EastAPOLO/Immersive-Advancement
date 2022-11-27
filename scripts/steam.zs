@@ -21,7 +21,7 @@ mods.immersivetechnology.Boiler.addFuel(<liquid:biodiesel> * 60, 1, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:diesel> * 40, 1, 10);
 mods.immersivetechnology.Boiler.addFuel(<liquid:gasoline> * 110, 1, 10);
 mods.immersivetechnology.Distiller.addRecipe(<liquid:distwater> * 15360, <liquid:water> * 15360, <immersivetech:material>, 8000, 20, 0.1);
-mods.immersivetechnology.SolarTower.addRecipe(<liquid:low_pressure_steam> * 15360, <liquid:distwater> * 15360, 20);
+mods.immersivetechnology.SolarTower.addRecipe(<liquid:low_pressure_steam> * 61440, <liquid:distwater> * 61440, 20);
 mods.immersivetechnology.SteamTurbine.addFuel(<liquid:low_quality_steam> * 6144, <liquid:low_pressure_steam> * 3072, 1);
 mods.immersivetechnology.HighPressureSteamTurbine.addFuel(<liquid:exhauststeam> * 6144, <liquid:high_pressure_steam> * 1536, 1);
 mods.immersivetechnology.GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:diesel> * 400, 10);
