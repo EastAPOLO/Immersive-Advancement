@@ -31,6 +31,11 @@ var iron_plate = <thermalfoundation:material:32>;
 var gold_plate = <thermalfoundation:material:33>;
 var silicon_plate = <immersiveintelligence:material_plate:5>;
 
+var copper_dust = <ore:dustCopper>;
+var nickel_dust = <ore:dustNickel>;
+var silver_dust = <ore:dustSilver>;
+var gold_dust = <ore:dustGold>;
+
 recipes.remove(<immersiveengineering:metal:30>);
 recipes.remove(<immersiveengineering:metal:31>);
 recipes.remove(<immersiveengineering:metal:32>);
@@ -43,6 +48,8 @@ recipes.remove(<immersiveengineering:metal:39>);
 recipes.remove(<immersiveengineering:metal:40>);
 recipes.remove(blast_brick);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
+mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
+mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
 
 <ore:oreNaquadah>.add(<stargatefighters:naquadah_ore>);
 <ore:oreNaquadahRaw>.remove(<jsg:naquadah_ore>);
@@ -58,6 +65,15 @@ recipes.addShapeless(steel_plate, [hammer, steel_ingot]);
 recipes.addShapeless(iron_plate, [hammer, iron_ingot]);
 recipes.addShapeless(gold_plate, [hammer, gold_ingot]);
 recipes.addShapeless(silicon_plate, [hammer, silicon_ingot]);
+
+mods.immersiveengineering.AlloySmelter.addRecipe(constantan_ingot * 2, copper_ingot, nickel_ingot, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(constantan_ingot * 2, copper_dust, nickel_dust, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(constantan_ingot * 2, copper_ingot, nickel_dust, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(constantan_ingot * 2, copper_dust, nickel_ingot, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_ingot, silver_ingot, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_dust, silver_dust, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_ingot, silver_dust, 200);
+mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_dust, silver_ingot, 200);
 
 recipes.addShaped(blast_brick * 3, [
 [brick, brick, brick],

@@ -28,6 +28,8 @@ mods.immersivetechnology.GasTurbine.removeFuel(<liquid:diesel>);
 mods.immersivetechnology.GasTurbine.removeFuel(<liquid:gasoline>);
 mods.immersivetechnology.Radiator.removeRecipe(<liquid:exhauststeam>);
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
+mods.immersivetechnology.HeatExchanger.removeRecipe(<liquid:water>, <liquid:fluegas>);
+mods.immersivetechnology.HeatExchanger.removeRecipe(<liquid:distwater>, <liquid:fluegas>);
 
 //mods.immersivetechnology.Boiler.addRecipe(<liquid:low_pressure_steam> * 3072, <liquid:distwater> * 192, 1);
 mods.immersivetechnology.Boiler.addRecipe(<liquid:low_pressure_steam> * 3072, <liquid:condensate_water> * 192, 1);
