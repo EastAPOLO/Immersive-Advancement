@@ -65,17 +65,13 @@ mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*512
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*320, <liquid:low_pressure_steam>*448, <liquid:super_critical_steam>*5, <liquid:exhaust_steam>*448, 0, 1);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*1280, <liquid:preheated_water>*224, <liquid:super_critical_steam>*20, <liquid:condensate_water>*224, 0, 1);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:low_pressure_steam> * 30720,  <liquid:superheatedmoltensodium> * 40, <liquid:water> * 1920, 0, 10);
-if(false){
-mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:preheated_water> * 3840,  <liquid:superheatedmoltensodium> * 40, <liquid:condensate_water> * 3840, 0, 5); //Simplified Preheated Recipe
-}
+//Simplified Preheated Recipe -> sodium*40 water*3840 5 ticks
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 20, <liquid:preheated_water> * 11520,  <liquid:superheatedmoltensodium> * 20, <liquid:condensate_water> * 11520, 0, 15); //Nuclearcraft Standard Preheated Recipe
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:high_pressure_steam> * 15360,  <liquid:superheatedmoltensodium> * 40, <liquid:preheated_water> * 3840, 0, 5);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 1, <liquid:low_pressure_steam> * 4608,  <liquid:superheatedmoltensodium> * 1, <liquid:exhaust_steam> * 4608, 0, 1);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 25, <liquid:super_critical_steam> * 192,  <liquid:superheatedmoltensodium> * 25, <liquid:well_pressed_water> * 192, 0, 1);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 1, <liquid:high_pressure_steam> * 432,  <liquid:superheatedmoltensodium> * 1, <liquid:crap_steam> * 432, 0, 1);
-if(false){
-mods.immersivetechnology.HeatExchanger.addRecipe(outSide, outTop,  inSide, inTop, 0, 1); //mnemonic reminder
-}
+
 /* -=-=-=-=-=-=-=-=- HX Recipes -=-=-=-=-=-=-=-=- */
 var crMatrix = [[275,250,425,400,350,525,450,500,550,575,725,325,475,1000,975,375,600,300,800,650,625,750,875,850,825,900,700,675,925,950,775,1025],[825,750,1275,1200,1050,1575,1350,1500,1650,1725,2175,975,1425,3000,2925,1125,1800,900,2400,1950,1875,2250,2625,2550,2475,2700,2100,2025,2775,2850,2325,3075],[2750,2500,4250,4000,3500,5250,4500,5000,5500,5750,7250,3250,4750,10000,9750,3750,6000,3000,8000,6500,6250,7500,8750,8500,8250,9000,7000,6750,9250,9500,7750,10250],[1375,1250,2125,2000,1750,2625,2250,2500,2750,2875,3625,1625,2375,5000,4875,1875,3000,1500,4000,3250,3125,3750,4375,4250,4125,4500,3500,3375,4625,4750,3875,5125],[165,150,255,240,210,315,270,300,330,345,435,195,285,600,585,225,360,180,480,390,375,450,525,510,495,540,420,405,555,570,465,615],[4125,3750,6375,6000,5250,7875,6750,7500,8250,8625,10875,4875,7125,15000,14625,5625,9000,4500,12000,9750,9375,11250,13125,12750,12375,13500,10500,10125,13875,14250,11625,15375]] as int[][];
 var coolantIn = [<liquid:nak_hot>,<liquid:iron_nak_hot>,<liquid:redstone_nak_hot>,<liquid:quartz_nak_hot>,<liquid:obsidian_nak_hot>,<liquid:nether_brick_nak_hot>,<liquid:glowstone_nak_hot>,<liquid:lapis_nak_hot>,<liquid:gold_nak_hot>,<liquid:prismarine_nak_hot>,<liquid:slime_nak_hot>,<liquid:end_stone_nak_hot>,<liquid:purpur_nak_hot>,<liquid:diamond_nak_hot>,<liquid:emerald_nak_hot>,<liquid:copper_nak_hot>,<liquid:tin_nak_hot>,<liquid:lead_nak_hot>,<liquid:boron_nak_hot>,<liquid:lithium_nak_hot>,<liquid:magnesium_nak_hot>,<liquid:manganese_nak_hot>,<liquid:aluminum_nak_hot>,<liquid:silver_nak_hot>,<liquid:fluorite_nak_hot>,<liquid:villiaumite_nak_hot>,<liquid:carobbiite_nak_hot>,<liquid:arsenic_nak_hot>,<liquid:liquid_nitrogen_nak_hot>,<liquid:liquid_helium_nak_hot>,<liquid:enderium_nak_hot>,<liquid:cryotheum_nak_hot>] as ILiquidStack[];
