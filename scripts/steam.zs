@@ -5,12 +5,12 @@ mods.immersivetechnology.Boiler.removeRecipe(<liquid:distwater>);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:biodiesel>);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:diesel>);
 mods.immersivetechnology.Boiler.removeFuel(<liquid:gasoline>);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<fluid:corium_nak_hot>*60, <fluid:preheated_water>*125);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<fluid:super_critical_steam>*80, <fluid:crap_steam>*672);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<fluid:super_critical_steam>*5, <fluid:exhaust_steam>*448);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<fluid:super_critical_steam>*20, <fluid:condensate_water>*224);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<fluid:high_pressure_steam>*75, <fluid:exhaust_steam>*120);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<fluid:high_pressure_steam>*80, <fluid:condensate_water>*16);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:corium_nak_hot>*60, <liquid:preheated_water>*125);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:super_critical_steam>*80, <liquid:crap_steam>*672);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:super_critical_steam>*5, <liquid:exhaust_steam>*448);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:super_critical_steam>*20, <liquid:condensate_water>*224);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:high_pressure_steam>*75, <liquid:exhaust_steam>*120);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:high_pressure_steam>*80, <liquid:condensate_water>*16);
 mods.nuclearcraft.Enricher.removeRecipeWithInput(<minecraft:snowball>, <fluid:exhaust_steam>*16000);
 mods.nuclearcraft.Enricher.removeRecipeWithInput(<minecraft:snowball>, <fluid:low_quality_steam>*16000);
 mods.immersivetechnology.SolarTower.removeRecipe(<liquid:water>);
@@ -59,12 +59,12 @@ mods.immersivetechnology.PressurizedFluid.add(<fluid:water>);
 mods.immersivetechnology.PressurizedFluid.add(<fluid:distwater>);
 mods.immersivetechnology.PressurizedFluid.add(<fluid:high_pressure_steam>);
 
-mods.immersivetechnology.HeatExchanger.addRecipe(<fluid:low_pressure_steam>*300, <fluid:low_pressure_steam>*120, <fluid:high_pressure_steam>*75, <fluid:exhaust_steam>*120, 0, 1);
-mods.immersivetechnology.HeatExchanger.addRecipe(<fluid:low_pressure_steam>*320, <fluid:preheated_water>*16, <fluid:high_pressure_steam>*80, <fluid:condensate_water>*16, 0, 1);
-mods.immersivetechnology.HeatExchanger.addRecipe(<fluid:corium_nak>*60, <fluid:condensate_water>*125, <fluid:corium_nak_hot>*60, <fluid:preheated_water>*125, 0, 1);
-mods.immersivetechnology.HeatExchanger.addRecipe(<fluid:low_pressure_steam>*5120, <fluid:high_pressure_steam>*672, <fluid:super_critical_steam>*80, <fluid:crap_steam>*672, 0, 1);
-mods.immersivetechnology.HeatExchanger.addRecipe(<fluid:low_pressure_steam>*320, <fluid:low_pressure_steam>*448, <fluid:super_critical_steam>*5, <fluid:exhaust_steam>*448, 0, 1);
-mods.immersivetechnology.HeatExchanger.addRecipe(<fluid:low_pressure_steam>*1280, <fluid:preheated_water>*224, <fluid:super_critical_steam>*20, <fluid:condensate_water>*224, 0, 1);
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*300, <liquid:low_pressure_steam>*120, <liquid:high_pressure_steam>*75, <liquid:exhaust_steam>*120, 0, 1);
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*320, <liquid:preheated_water>*16, <liquid:high_pressure_steam>*80, <liquid:condensate_water>*16, 0, 1);
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:corium_nak>*60, <liquid:condensate_water>*125, <liquid:corium_nak_hot>*60, <liquid:preheated_water>*125, 0, 1);
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*5120, <liquid:high_pressure_steam>*672, <liquid:super_critical_steam>*80, <liquid:crap_steam>*672, 0, 1);
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*320, <liquid:low_pressure_steam>*448, <liquid:super_critical_steam>*5, <liquid:exhaust_steam>*448, 0, 1);
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:low_pressure_steam>*1280, <liquid:preheated_water>*224, <liquid:super_critical_steam>*20, <liquid:condensate_water>*224, 0, 1);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:low_pressure_steam> * 30720,  <liquid:superheatedmoltensodium> * 40, <liquid:water> * 1920, 0, 10);
 //mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:preheated_water> * 3840,  <liquid:superheatedmoltensodium> * 40, <liquid:condensate_water> * 3840, 0, 5); //Simplified Preheated Recipe
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 20, <liquid:preheated_water> * 11520,  <liquid:superheatedmoltensodium> * 20, <liquid:condensate_water> * 11520, 0, 15); //Nuclearcraft Standard Preheated Recipe
@@ -110,7 +110,6 @@ for i,array in crMatrix{
 	}
 }
 
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithInput(<liquid:corium_nak_hot> * 60, <liquid:preheated_water> * 125);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:corium_nak>*60, <liquid:condensate_water>*125, <liquid:corium_nak_hot>*60, <liquid:preheated_water>*125, 0, 1);
 
 if(loadedMods has "thermalfoundation"){
