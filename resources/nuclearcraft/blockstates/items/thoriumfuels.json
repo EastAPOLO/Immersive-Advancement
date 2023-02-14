@@ -1,0 +1,515 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "builtin/generated",
+		"transform": "forge:default-item"
+	},
+	"variants": {
+		"type": {
+			"uat233": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat233"
+				}
+			},
+			"uat233_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat233_ox"
+				}
+			},
+			"uat233_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat233_ni"
+				}
+			},
+			"uat233_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat233_za"
+				}
+			},
+			"depleted_uat233_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_uat233_ox"
+				}
+			},
+			"depleted_uat233_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_uat233_ni"
+				}
+			},
+			"depleted_uat233_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_uat233_za"
+				}
+			},
+			"uat235": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat235"
+				}
+			},
+			"uat235_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat235_ox"
+				}
+			},
+			"uat235_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat235_ni"
+				}
+			},
+			"uat235_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/uat235_za"
+				}
+			},
+			"depleted_uat235_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_uat235_ox"
+				}
+			},
+			"depleted_uat235_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_uat235_ni"
+				}
+			},
+			"depleted_uat235_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_uat235_za"
+				}
+			},
+			"nat236": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/nat236"
+				}
+			},
+			"nat236_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/nat236_ox"
+				}
+			},
+			"nat236_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/nat236_ni"
+				}
+			},
+			"nat236_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/nat236_za"
+				}
+			},
+			"depleted_nat236_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_nat236_ox"
+				}
+			},
+			"depleted_nat236_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_nat236_ni"
+				}
+			},
+			"depleted_nat236_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_nat236_za"
+				}
+			},
+			"pat239": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat239"
+				}
+			},
+			"pat239_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat239_ox"
+				}
+			},
+			"pat239_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat239_ni"
+				}
+			},
+			"pat239_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat239_za"
+				}
+			},
+			"depleted_pat239_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_pat239_ox"
+				}
+			},
+			"depleted_pat239_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_pat239_ni"
+				}
+			},
+			"depleted_pat239_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_pat239_za"
+				}
+			},
+			"pat241": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat241"
+				}
+			},
+			"pat241_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat241_ox"
+				}
+			},
+			"pat241_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat241_ni"
+				}
+			},
+			"pat241_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/pat241_za"
+				}
+			},
+			"depleted_pat241_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_pat241_ox"
+				}
+			},
+			"depleted_pat241_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_pat241_ni"
+				}
+			},
+			"depleted_pat241_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_pat241_za"
+				}
+			},
+			"aat242": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/aat242"
+				}
+			},
+			"aat242_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/aat242_ox"
+				}
+			},
+			"aat242_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/aat242_ni"
+				}
+			},
+			"aat242_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/aat242_za"
+				}
+			},
+			"depleted_aat242_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_aat242_ox"
+				}
+			},
+			"depleted_aat242_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_aat242_ni"
+				}
+			},
+			"depleted_aat242_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_aat242_za"
+				}
+			},
+			"cmat243": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat243"
+				}
+			},
+			"cmat243_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat243_ox"
+				}
+			},
+			"cmat243_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat243_ni"
+				}
+			},
+			"cmat243_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat243_za"
+				}
+			},
+			"depleted_cmat243_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat243_ox"
+				}
+			},
+			"depleted_cmat243_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat243_ni"
+				}
+			},
+			"depleted_cmat243_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat243_za"
+				}
+			},
+			"cmat245": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat245"
+				}
+			},
+			"cmat245_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat245_ox"
+				}
+			},
+			"cmat245_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat245_ni"
+				}
+			},
+			"cmat245_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat245_za"
+				}
+			},
+			"depleted_cmat245_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat245_ox"
+				}
+			},
+			"depleted_cmat245_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat245_ni"
+				}
+			},
+			"depleted_cmat245_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat245_za"
+				}
+			},
+			"cmat247": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat247"
+				}
+			},
+			"cmat247_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat247_ox"
+				}
+			},
+			"cmat247_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat247_ni"
+				}
+			},
+			"cmat247_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cmat247_za"
+				}
+			},
+			"depleted_cmat247_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat247_ox"
+				}
+			},
+			"depleted_cmat247_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat247_ni"
+				}
+			},
+			"depleted_cmat247_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cmat247_za"
+				}
+			},
+			"bat248": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/bat248"
+				}
+			},
+			"bat248_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/bat248_ox"
+				}
+			},
+			"bat248_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/bat248_ni"
+				}
+			},
+			"bat248_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/bat248_za"
+				}
+			},
+			"depleted_bat248_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_bat248_ox"
+				}
+			},
+			"depleted_bat248_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_bat248_ni"
+				}
+			},
+			"depleted_bat248_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_bat248_za"
+				}
+			},
+			"cfat249": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat249"
+				}
+			},
+			"cfat249_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat249_ox"
+				}
+			},
+			"cfat249_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat249_ni"
+				}
+			},
+			"cfat249_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat249_za"
+				}
+			},
+			"depleted_cfat249_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cfat249_ox"
+				}
+			},
+			"depleted_cfat249_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cfat249_ni"
+				}
+			},
+			"depleted_cfat249_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cfat249_za"
+				}
+			},
+			"cfat251": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat251"
+				}
+			},
+			"cfat251_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat251_ox"
+				}
+			},
+			"cfat251_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat251_ni"
+				}
+			},
+			"cfat251_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/cfat251_za"
+				}
+			},
+			"depleted_cfat251_ox": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cfat251_ox"
+				}
+			},
+			"depleted_cfat251_ni": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cfat251_ni"
+				}
+			},
+			"depleted_cfat251_za": {
+				"model": "nuclearcraft:item/pellet",
+				"textures": {
+					"layer0": "nuclearcraft:items/thoriumfuels/depleted_cfat251_za"
+				}
+			}
+		}
+	}
+}

@@ -41,7 +41,10 @@ recipes.addShaped(inscriber_silicon_press, [
 [steel_ingot, piston, steel_ingot]]);
 
 recipes.addShapeless(sky_stone, [stone, graphite_dust]);
+recipes.addShapeless(fluix_crystal * 2, [charged_certus_quartz_crystal, <minecraft:quartz>, <minecraft:redstone>]);
 
 mods.immersiveengineering.Crusher.addRecipe(fluix_crystal_dust, fluix_crystal, 2048);
 mods.immersiveengineering.Crusher.addRecipe(certus_quartz_dust, certus_quartz_crystal, 2048);
 mods.immersiveengineering.Crusher.addRecipe(certus_quartz_dust, charged_certus_quartz_crystal, 2048);
+
+furnace.addRecipe(charged_certus_quartz_crystal, certus_quartz_crystal);

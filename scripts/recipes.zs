@@ -36,6 +36,8 @@ var nickel_dust = <ore:dustNickel>;
 var silver_dust = <ore:dustSilver>;
 var gold_dust = <ore:dustGold>;
 
+var pressure_pipe = <pressure:pipe>;
+
 recipes.remove(<immersiveengineering:metal:30>);
 recipes.remove(<immersiveengineering:metal:31>);
 recipes.remove(<immersiveengineering:metal:32>);
@@ -47,12 +49,14 @@ recipes.remove(<immersiveengineering:metal:38>);
 recipes.remove(<immersiveengineering:metal:39>);
 recipes.remove(<immersiveengineering:metal:40>);
 recipes.remove(blast_brick);
+recipes.remove(pressure_pipe);
+recipes.remove(<mts:unuparts.unuparts_part_unu_barrel_jerrycan>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 
-<ore:oreNaquadah>.add(<stargatefighters:naquadah_ore>);
-<ore:oreNaquadahRaw>.remove(<jsg:naquadah_ore>);
+<ore:ingotIron>.add(<contenttweaker:sponge_iron>);
 
 recipes.addShapeless(copper_plate, [hammer, copper_ingot]);
 recipes.addShapeless(aluminium_plate, [hammer, aluminium_ingot]);
@@ -75,6 +79,22 @@ mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_dust, 
 mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_ingot, silver_dust, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(electrum_ingot * 2, gold_dust, silver_ingot, 200);
 
+mods.immersiveengineering.BlastFurnace.removeFuel(<immersiveengineering:material:6>);
+mods.immersiveengineering.BlastFurnace.addFuel(<immersiveengineering:material:6>, 200);
+mods.immersiveengineering.BlastFurnace.addFuel(<thermalfoundation:material:802>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(steel_ingot, iron_ingot, 200, <immersiveengineering:material:7>);
+
+mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(steel_ingot);
+mods.immersiveengineering.ArcFurnace.addRecipe(steel_ingot, <contenttweaker:sponge_iron>, <immersiveengineering:material:7>, 100, 1024);
+
+mods.nuclearcraft.Infuser.addRecipe(iron_ingot, <liquid:hydrogen> * 100, <contenttweaker:sponge_iron>);
+mods.nuclearcraft.Infuser.addRecipe(<nuclearcraft:part:14>, <liquid:ice> * 8000, <nuclearcraft:solid_fission_sink_blue_ice>);
+
+mods.immersiveengineering.DieselHandler.removeFuel(<liquid:diesel>);
+mods.immersiveengineering.DieselHandler.removeFuel(<liquid:biodiesel>);
+mods.immersiveengineering.DieselHandler.addFuel(<liquid:diesel>, 125);
+mods.immersiveengineering.DieselHandler.addFuel(<liquid:biodiesel>, 100);
+
 recipes.addShaped(blast_brick * 3, [
 [brick, brick, brick],
 [brick, coal_coke, brick],
@@ -84,3 +104,8 @@ recipes.addShaped(waterwheel, [
 [null, waterwheel_segment, null],
 [waterwheel_segment, bronze, waterwheel_segment],
 [null, waterwheel_segment, null]]);
+
+recipes.addShaped(pressure_pipe * 8, [
+[lead_plate, lead_plate, lead_plate],
+[null, null, null],
+[lead_plate, lead_plate, lead_plate]]);

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<galaxy>
+    <star blackHole="false" name="Sol" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+        <planet DIMID="3" name="Mercury" customIcon="moon">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>40</orbitalDistance>
+            <rotationalPeriod>1344000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <orbitalTheta>212</orbitalTheta>
+        </planet>
+        <planet DIMID="4" name="Venus" customIcon="venusian">
+            <skyColor>0.86,0.79,0.68</skyColor>
+            <fogColor>0.86,0.79,0.68</fogColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>70</orbitalDistance>
+            <rotationalPeriod>5832000</rotationalPeriod>
+            <gasGiant>true</gasGiant>
+            <gas>carbondioxide</gas>
+            <gas>nitrogen</gas>
+            <gas>sulfurdioxide</gas>
+            <orbitalTheta>300</orbitalTheta>
+        </planet>
+        <planet DIMID="0" dimMapping="" name="Earth" customIcon="earthlike">
+            <orbitalTheta>94</orbitalTheta>
+            <orbitalDistance>100</orbitalDistance>
+            <planet DIMID="2" name="Luna" customIcon="moon">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <rotationalPeriod>192000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <orbitalTheta>194</orbitalTheta>
+            </planet>
+        </planet>
+        <planet DIMID="5" name="Mars" customIcon="marslike">
+            <skyColor>0.67,0.58,0.52</skyColor>
+            <fogColor>0.67,0.58,0.52</fogColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <rotationalPeriod>24700</rotationalPeriod>
+            <atmosphereDensity>1</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <orbitalTheta>72</orbitalTheta>
+        </planet>
+        <planet DIMID="6" name="Jupiter" customIcon="gasgiantred">
+            <skyColor>0.78,0.54,0.4</skyColor>
+            <fogColor>0.78,0.54,0.4</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>400</gravitationalMultiplier>
+            <orbitalDistance>520</orbitalDistance>
+            <rotationalPeriod>9925</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <gas>helium3</gas>
+            <gas>precipitategasmix</gas>
+            <orbitalTheta>271</orbitalTheta>
+            <planet DIMID="14" name="Io" customIcon="venusian">
+                <gravitationalMultiplier>18</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <rotationalPeriod>109247</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>33</orbitalTheta>
+            </planet>
+            <planet DIMID="15" name="Europa" customIcon="iceworld">
+                <gravitationalMultiplier>13</gravitationalMultiplier>
+                <orbitalDistance>175</orbitalDistance>
+                <rotationalPeriod>222243</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>257</orbitalTheta>
+            </planet>
+            <planet DIMID="16" name="Ganymede" customIcon="iceworld">
+                <gravitationalMultiplier>15</gravitationalMultiplier>
+                <orbitalDistance>279</orbitalDistance>
+                <rotationalPeriod>447381</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>169</orbitalTheta>
+            </planet>
+            <planet DIMID="18" name="Callisto" customIcon="iceworld">
+                <gravitationalMultiplier>13</gravitationalMultiplier>
+                <orbitalDistance>490</orbitalDistance>
+                <rotationalPeriod>1041275</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>73</orbitalTheta>
+            </planet>
+        </planet>
+        <planet DIMID="8" name="Saturn" customIcon="gasgiantbrown">
+            <skyColor>0.67,0.58,0.48</skyColor>
+            <fogColor>0.67,0.58,0.48</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>350</gravitationalMultiplier>
+            <orbitalDistance>960</orbitalDistance>
+            <rotationalPeriod>10500</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <orbitalTheta>6</orbitalTheta>
+            <planet DIMID="19" name="Titan" customIcon="venusian">
+                <skyColor>0.67,0.58,0.48</skyColor>
+                <fogColor>0.67,0.58,0.48</fogColor>
+                <hasColorOverride>true</hasColorOverride>
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <orbitalDistance>317</orbitalDistance>
+                <rotationalPeriod>579237</rotationalPeriod>
+                <atmosphereDensity>160</atmosphereDensity>
+                <hasOxygen>false</hasOxygen>
+                <orbitalTheta>150</orbitalTheta>
+                <gasGiant>true</gasGiant>
+                <gas>methane</gas>
+                <gas>ethylene</gas>
+            </planet>
+        </planet>
+        <planet DIMID="9" name="Uranus" customIcon="gasgiantblue">
+            <skyColor>0.37,0.47,0.72</skyColor>
+            <fogColor>0.37,0.47,0.72</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>175</gravitationalMultiplier>
+            <orbitalDistance>1920</orbitalDistance>
+            <rotationalPeriod>17250</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <gas>helium3</gas>
+            <gas>precipitategasmix</gas>
+            <orbitalTheta>128</orbitalTheta>
+        </planet>
+        <planet DIMID="10" name="Neptune" customIcon="gasgiantblue">
+            <skyColor>0.37,0.47,0.72</skyColor>
+            <fogColor>0.37,0.47,0.72</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>160</gravitationalMultiplier>
+            <orbitalDistance>3000</orbitalDistance>
+            <rotationalPeriod>1600</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <gas>precipitategasmix</gas>
+            <orbitalTheta>61</orbitalTheta>
+            <planet DIMID="11" name="Triton" customIcon="iceworld">
+                <gravitationalMultiplier>8</gravitationalMultiplier>
+                <orbitalDistance>92</orbitalDistance>
+                <rotationalPeriod>141000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <orbitalTheta>351</orbitalTheta>
+            </planet>
+        </planet>
+        <planet DIMID="12" name="Pluto" customIcon="iceworld">
+            <gravitationalMultiplier>6</gravitationalMultiplier>
+            <orbitalDistance>3950</orbitalDistance>
+            <rotationalPeriod>153000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <orbitalTheta>249</orbitalTheta>
+            <planet DIMID="13" name="Charon" customIcon="iceworld">
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+                <orbitalDistance>5</orbitalDistance>
+                <rotationalPeriod>153000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <orbitalTheta>228</orbitalTheta>
+            </planet>
+        </planet>
+        <planet DIMID="20" name="Ceres" customIcon="moon">
+            <gravitationalMultiplier>3</gravitationalMultiplier>
+            <orbitalDistance>280</orbitalDistance>
+            <rotationalPeriod>9000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <orbitalTheta>0</orbitalTheta>
+        </planet>
+        <planet DIMID="17" name="Atum" customIcon="desertworld">
+            <orbitalTheta>94</orbitalTheta>
+            <orbitalDistance>80</orbitalDistance>
+        </planet>
+        <planet DIMID="-1" name="Nether" customIcon="lava">
+            <orbitalTheta>94</orbitalTheta>
+            <orbitalDistance>30</orbitalDistance>
+        </planet>
+        <planet DIMID="1" name="End" customIcon="venusian">
+            <orbitalTheta>94</orbitalTheta>
+            <orbitalDistance>400</orbitalDistance>
+        </planet>
+    </star>
+</galaxy>

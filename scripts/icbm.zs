@@ -29,7 +29,7 @@ var missile = <icbmclassic:missile>;
 var generic_missile = <icbmclassic:missile:24>;
 var compression_charge = <trinity:compression_charge>;
 var microchip = <opencomputers:material:9>;
-var rocket_fuel = <galacticraftcore:bucket_fuel>;
+var rocket_fuel = <forge:bucketfilled>.withTag({FluidName: "rocketfuel", Amount: 1000});
 
 recipes.remove(nuclear_explosive);
 recipes.remove(antimatter_explosive);
