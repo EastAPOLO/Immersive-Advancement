@@ -4,6 +4,7 @@ A progression oriented modpack with exploration and challenging mobs for 1.12.2.
 ## Mods
 Below is a list of mods the modpack uses excluding their library deps for those that are curious:
 * Advanced Chimneys
+* Advanced Rocketry
 * AE2 Stuff
 * AI Improvements
 * Alternating Flux
@@ -11,8 +12,11 @@ Below is a list of mods the modpack uses excluding their library deps for those 
 * Apotheosis
 * Applied Energistics 2
 * Aquaculture
+* Attribute Fix
 * Atum 2
 * Better Foliage
+* Bed Patch
+* BiomeTweaker
 * The Betweenlands
 * Bibliocraft
 * Blue Skies
@@ -25,23 +29,20 @@ Below is a list of mods the modpack uses excluding their library deps for those 
 * Content Tweaker
 * Controlling
 * Corpse 
+* Craftspeed
 * CraftTweaker
 * Connected Textures
 * Custom Starting Gear
 * Doomlike Dungeons
 * Dynamic Trees
 * Dynamic Trees For Atum
-* Dynamic Trees For The Betweenlands
-* Dynamic Trees For The Twilight Forest
 * Engineer's Decor
 * Engineer's Doors
 * Engineer's Tools
 * Extra Cells 2
 * Extra CPUs
-* Extra Planets
 * Fast Workbench
 * FoamFix
-* Galacticraft
 * Geographicraft
 * Golden Airport Pack
 * Hero Aviation Pack
@@ -55,7 +56,9 @@ Below is a list of mods the modpack uses excluding their library deps for those 
 * Immersive Technology
 * Immersive Vehicles
 * Immersive Vehicles Remote Control
+* IAV Parts Pack
 * Item Physic
+* IV Farming
 * Just Enough Energistics
 * Just Enough Items
 * Just Enough Resources
@@ -69,6 +72,7 @@ Below is a list of mods the modpack uses excluding their library deps for those 
 * More Sound Config
 * MrCrayfish's Guns
 * MTS Official Pack
+* No Nether Portals
 * Nuclearcraft
 * The One Probe
 * Open Modular Turrets
@@ -77,14 +81,18 @@ Below is a list of mods the modpack uses excluding their library deps for those 
 * OpenPrinter
 * OpenSecurity
 * Optifine
+* Performant
+* Phosphor Lighting Engine
 * Pollutant Pump
 * Pollution of the Realms
+* Pressure Pipes
 * Psi
 * Quantum Minecraft Dynamics
 * Quark
 * Questionably Immersive
 * Random PSIdeas
 * Random Patches
+* Reactor Builder
 * Realistic Terrain Generation
 * ReAuth
 * RecurrentComplex
@@ -98,12 +106,14 @@ Below is a list of mods the modpack uses excluding their library deps for those 
 * Stargate Fighters
 * Tetra
 * TexFix
-* Thermal Dynamics
 * Thermal Foundation
+* Trin Civil Pack V3
+* Trin Decor Pack
+* Trin Emergency Pack
+* Trin Parts Pack
 * Trinity
 * The Twilight Forest
 * UNU Civilian Vehicles
-* UNU Military Vehicles
 * UNU Parts Pack
 * Wireless Fluid Terminal
 * Wireless Interface Terminal
