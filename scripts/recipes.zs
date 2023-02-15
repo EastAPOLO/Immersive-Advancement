@@ -37,6 +37,8 @@ var silver_dust = <ore:dustSilver>;
 var gold_dust = <ore:dustGold>;
 
 var pressure_pipe = <pressure:pipe>;
+var pressure_water = <pressure:water_source>;
+var dense_infinite_water = <nuclearcraft:water_source_dense>;
 
 recipes.remove(<immersiveengineering:metal:30>);
 recipes.remove(<immersiveengineering:metal:31>);
@@ -50,6 +52,7 @@ recipes.remove(<immersiveengineering:metal:39>);
 recipes.remove(<immersiveengineering:metal:40>);
 recipes.remove(blast_brick);
 recipes.remove(pressure_pipe);
+recipes.remove(pressure_water);
 recipes.remove(<mts:unuparts.unuparts_part_unu_barrel_jerrycan>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
@@ -109,3 +112,8 @@ recipes.addShaped(pressure_pipe * 8, [
 [lead_plate, lead_plate, lead_plate],
 [null, null, null],
 [lead_plate, lead_plate, lead_plate]]);
+
+recipes.addShaped(pressure_water, [
+[dense_infinite_water, dense_infinite_water, dense_infinite_water],
+[dense_infinite_water, null, dense_infinite_water],
+[dense_infinite_water, dense_infinite_water, dense_infinite_water]]);
