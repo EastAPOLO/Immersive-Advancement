@@ -49,7 +49,7 @@ mods.immersivetechnology.PressurizedFluid.add(<fluid:distwater>);
 mods.immersivetechnology.PressurizedFluid.add(<fluid:high_pressure_steam>);
 
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:low_pressure_steam> * 30720,  <liquid:superheatedmoltensodium> * 40, <liquid:water> * 1920, 0, 10);
-//mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:preheated_water> * 3840,  <liquid:superheatedmoltensodium> * 40, <liquid:condensate_water> * 3840, 0, 5); //Simplified Preheated Recipe
+//Simplified Preheated Recipe -> sodium*40 water*3840 5 ticks
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 20, <liquid:preheated_water> * 11520,  <liquid:superheatedmoltensodium> * 20, <liquid:condensate_water> * 11520, 0, 15); //Nuclearcraft Standard Preheated Recipe
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 40, <liquid:high_pressure_steam> * 15360,  <liquid:superheatedmoltensodium> * 40, <liquid:preheated_water> * 3840, 0, 5);
 mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:moltensodium> * 1, <liquid:low_pressure_steam> * 4608,  <liquid:superheatedmoltensodium> * 1, <liquid:exhaust_steam> * 4608, 0, 1);
