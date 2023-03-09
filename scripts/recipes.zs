@@ -18,6 +18,7 @@ var steel_ingot = <thermalfoundation:material:160>;
 var iron_ingot = <minecraft:iron_ingot>;
 var gold_ingot = <minecraft:gold_ingot>;
 var silicon_ingot = <immersiveintelligence:material_ingot:6>;
+var hsla_steel_ingot = <nuclearcraft:alloy:15>;
 
 var copper_plate = <thermalfoundation:material:320>;
 var aluminium_plate = <thermalfoundation:material:324>;
@@ -39,6 +40,12 @@ var gold_dust = <ore:dustGold>;
 var pressure_pipe = <pressure:pipe>;
 var pressure_water = <pressure:water_source>;
 var dense_infinite_water = <nuclearcraft:water_source_dense>;
+var tank_wall = <pressure:tank_wall>;
+var tank_block = <pressure:tank_block>;
+var pressure_pipe_sensor = <pressure:pipe_sensor>;
+var pressure_pipe_valve = <pressure:check_valve>;
+var redstone_torch = <minecraft:redstone_torch>;
+var lever = <minecraft:lever>;
 
 recipes.remove(<immersiveengineering:metal:30>);
 recipes.remove(<immersiveengineering:metal:31>);
@@ -54,6 +61,10 @@ recipes.remove(blast_brick);
 recipes.remove(pressure_pipe);
 recipes.remove(pressure_water);
 recipes.remove(<mts:unuparts.unuparts_part_unu_barrel_jerrycan>);
+recipes.remove(tank_wall);
+recipes.remove(tank_block);
+recipes.remove(pressure_pipe_sensor);
+recipes.remove(pressure_pipe_valve);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
@@ -72,6 +83,9 @@ recipes.addShapeless(steel_plate, [hammer, steel_ingot]);
 recipes.addShapeless(iron_plate, [hammer, iron_ingot]);
 recipes.addShapeless(gold_plate, [hammer, gold_ingot]);
 recipes.addShapeless(silicon_plate, [hammer, silicon_ingot]);
+recipes.addShapeless(tank_wall, [hammer, hsla_steel_ingot]);
+recipes.addShapeless(pressure_pipe_sensor, [pressure_pipe, redstone_torch]);
+recipes.addShapeless(pressure_pipe_valve, [pressure_pipe, lever]);
 
 mods.immersiveengineering.AlloySmelter.addRecipe(constantan_ingot * 2, copper_ingot, nickel_ingot, 200);
 mods.immersiveengineering.AlloySmelter.addRecipe(constantan_ingot * 2, copper_dust, nickel_dust, 200);
@@ -117,3 +131,8 @@ recipes.addShaped(pressure_water, [
 [dense_infinite_water, dense_infinite_water, dense_infinite_water],
 [dense_infinite_water, null, dense_infinite_water],
 [dense_infinite_water, dense_infinite_water, dense_infinite_water]]);
+
+recipes.addShaped(tank_block * 4, [
+[tank_wall, tank_wall, null],
+[tank_wall, tank_wall, null],
+[null, null, null]]);
