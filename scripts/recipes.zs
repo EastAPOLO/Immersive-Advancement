@@ -6,6 +6,7 @@ var coal_coke = <ore:fuelCoke>;
 var waterwheel_segment = <immersiveengineering:material:10>;
 var waterwheel = <immersiveengineering:wooden_device1>;
 var bronze = <ore:ingotBronze>;
+var coke_dust = <immersiveengineering:material:17>;
 
 var copper_ingot = <thermalfoundation:material:128>;
 var aluminium_ingot = <thermalfoundation:material:132>;
@@ -36,6 +37,7 @@ var copper_dust = <ore:dustCopper>;
 var nickel_dust = <ore:dustNickel>;
 var silver_dust = <ore:dustSilver>;
 var gold_dust = <ore:dustGold>;
+var iron_dust = <ore:dustIron>;
 
 var pressure_pipe = <pressure:pipe>;
 var pressure_water = <pressure:water_source>;
@@ -65,6 +67,7 @@ recipes.remove(tank_wall);
 recipes.remove(tank_block);
 recipes.remove(pressure_pipe_sensor);
 recipes.remove(pressure_pipe_valve);
+recipes.remove(<icbmclassic:ingot>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveintelligence:material_dust:8>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:6>);
 mods.immersiveengineering.AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
@@ -102,9 +105,12 @@ mods.immersiveengineering.BlastFurnace.addFuel(<thermalfoundation:material:802>,
 mods.immersiveengineering.BlastFurnace.addRecipe(steel_ingot, iron_ingot, 200, <immersiveengineering:material:7>);
 
 mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(steel_ingot);
-mods.immersiveengineering.ArcFurnace.addRecipe(steel_ingot, <contenttweaker:sponge_iron>, <immersiveengineering:material:7>, 100, 1024);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.ArcFurnace.addRecipe(steel_ingot, <contenttweaker:sponge_iron>, <immersiveengineering:material:7>, 100, 512, [<ore:coal>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(steel_ingot, iron_ingot, <immersiveengineering:material:7>, 100, 512, [coke_dust]);
+mods.immersiveengineering.ArcFurnace.addRecipe(steel_ingot, iron_dust, <immersiveengineering:material:7>, 100, 512, [coke_dust]);
 
-mods.nuclearcraft.Infuser.addRecipe(iron_ingot, <liquid:hydrogen> * 100, <contenttweaker:sponge_iron>);
+mods.nuclearcraft.Infuser.addRecipe(iron_ingot, <liquid:hydrogen> * 100, <contenttweaker:sponge_iron>, 1.0, 6.4);
 mods.nuclearcraft.Infuser.addRecipe(<nuclearcraft:part:14>, <liquid:ice> * 8000, <nuclearcraft:solid_fission_sink_blue_ice>);
 
 mods.immersiveengineering.DieselHandler.removeFuel(<liquid:diesel>);
