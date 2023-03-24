@@ -118,6 +118,11 @@ mods.immersiveengineering.DieselHandler.removeFuel(<liquid:biodiesel>);
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:diesel>, 125);
 mods.immersiveengineering.DieselHandler.addFuel(<liquid:biodiesel>, 100);
 
+mods.immersiveengineering.Mixer.removeRecipe(<liquid:sulfuric_acid>);
+mods.immersiveengineering.Mixer.removeRecipe(<liquid:nitric_acid>);
+mods.immersiveengineering.Mixer.removeRecipe(<liquid:hydrofluoric_acid>);
+mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:brine> * 15);
+
 recipes.addShaped(blast_brick * 3, [
 [brick, brick, brick],
 [brick, coal_coke, brick],
