@@ -1,32 +1,4 @@
 {
-  "nc_wasteland": {
-    "energyToOpen": 0,
-    "keepAlive": 0,
-    "groups": [],
-    "milkyWayOrigins": {}
-  },
-  "the_nether": {
-    "energyToOpen": 3686400,
-    "keepAlive": 1600,
-    "groups": [
-      "netherOv"
-    ],
-    "milkyWayOrigins": {
-      "NORMAL": 2
-    }
-  },
-  "atum": {
-    "energyToOpen": 0,
-    "keepAlive": 0,
-    "groups": [],
-    "milkyWayOrigins": {}
-  },
-  "planet": {
-    "energyToOpen": 0,
-    "keepAlive": 0,
-    "groups": [],
-    "milkyWayOrigins": {}
-  },
   "overworld": {
     "energyToOpen": 0,
     "keepAlive": 0,
@@ -43,11 +15,39 @@
       "NORMAL": 1
     }
   },
+  "nc_wasteland": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
   "Storage Cell": {
     "energyToOpen": 0,
     "keepAlive": 0,
     "groups": [],
     "milkyWayOrigins": {}
+  },
+  "atum": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "planet": {
+    "energyToOpen": 0,
+    "keepAlive": 0,
+    "groups": [],
+    "milkyWayOrigins": {}
+  },
+  "the_nether": {
+    "energyToOpen": 3686400,
+    "keepAlive": 1600,
+    "groups": [
+      "netherOv"
+    ],
+    "milkyWayOrigins": {
+      "NORMAL": 2
+    }
   },
   "space": {
     "energyToOpen": 0,

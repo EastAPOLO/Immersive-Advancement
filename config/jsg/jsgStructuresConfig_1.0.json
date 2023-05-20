@@ -6,7 +6,7 @@
     },
     "ancient_totem": {
       "enabled": true,
-      "chanceToSpawn": 8.0E-5
+      "chanceToSpawn": 8.0E-6
     }
   },
   "ringsStructures": {

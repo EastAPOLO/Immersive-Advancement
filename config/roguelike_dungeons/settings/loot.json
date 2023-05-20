@@ -1,0 +1,6 @@
+{
+	"name" : "custom:loot",
+	"inherit" : [
+		"custom:stargate_loot"
+	]
+}

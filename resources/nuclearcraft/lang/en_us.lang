@@ -1,488 +1,3 @@
-# SciNTP
-
-//Magnets
-tile.nuclearcraft.turbine_dynamo_coil_basemagnet.name=Basic Induction Turbine Magnet
-tile.nuclearcraft.turbine_dynamo_coil_ironmagnet.name=Turbine Ironmagnet
-tile.nuclearcraft.turbine_dynamo_coil_lithiummagnet.name=Turbine Lithiumagnet
-tile.nuclearcraft.turbine_dynamo_coil_constantanmagnet.name=Turbine Constantanmagnet
-tile.nuclearcraft.turbine_dynamo_coil_manganesemagnet.name=Turbine Manganesemagnet
-tile.nuclearcraft.turbine_dynamo_coil_bronzemagnet.name=Turbine Bronzemagnet
-tile.nuclearcraft.turbine_dynamo_coil_leadmagnet.name=Turbine Leadmagnet
-tile.nuclearcraft.turbine_dynamo_coil_nickelmagnet.name=Turbine Nickelmagnet
-tile.nuclearcraft.turbine_dynamo_coil_steelmagnet.name=Turbine Steelmagnet
-tile.nuclearcraft.turbine_dynamo_coil_tinmagnet.name=Turbine Tinmagnet 
-tile.nuclearcraft.turbine_dynamo_coil_ferroboronmagnet.name=Turbine Ferroboronmagnet
-tile.nuclearcraft.turbine_dynamo_coil_siliconcarbidemagnet.name=Turbine Siliconcarbidemagnet
-tile.nuclearcraft.turbine_dynamo_coil_invarmagnet.name=Turbine Invarmagnet
-tile.nuclearcraft.turbine_dynamo_coil_potassiummagnet.name=Turbine Potassiumagnet
-tile.nuclearcraft.turbine_dynamo_coil_chromiummagnet.name=Turbine Chromiumagnet
-tile.nuclearcraft.turbine_dynamo_coil_tungstenmagnet.name=Turbine Tungstenmagnet
-tile.nuclearcraft.turbine_dynamo_coil_zincmagnet.name=Turbine Zincmagnet
-tile.nuclearcraft.turbine_dynamo_coil_neodymiummagnet.name=Turbine Neodymiumagnet
-tile.nuclearcraft.turbine_dynamo_coil_osmiummagnet.name=Turbine Osmiumagnet
-tile.nuclearcraft.turbine_dynamo_coil_iridiummagnet.name=Turbine Iridiumagnet
-tile.nuclearcraft.turbine_dynamo_coil_samariummagnet.name=Turbine Samariumagnet
-tile.nuclearcraft.turbine_dynamo_coil_nakmagnet.name=Turbine Eutectic NaK Magnet
-tile.nuclearcraft.turbine_dynamo_coil_antihydrogenmagnet.name=Turbine Anti-Hydrogen Magnet
-
-nc.sf.basemagnet_coil0=%s Basic Induction Turbine Magnet
-nc.sf.basemagnet_coil1=%s Basic Induction Turbine Magnets
-nc.sf.ironmagnet_coil0=%s Turbine Ironmagnet
-nc.sf.ironmagnet_coil1=%s Turbine Ironmagnets
-nc.sf.lithiummagnet_coil0=%s Turbine Lithiumagnet
-nc.sf.lithiummagnet_coil1=%s Turbine Lithiumagnets
-nc.sf.constantanmagnet_coil0=%s Turbine Constantanmagnet
-nc.sf.constantanmagnet_coil1=%s Turbine Constantanmagnets
-nc.sf.manganesemagnet_coil0=%s Turbine Manganesemagnet
-nc.sf.manganesemagnet_coil1=%s Turbine Manganesemagnets
-nc.sf.bronzemagnet_coil0=%s Turbine Bronzemagnet
-nc.sf.bronzemagnet_coil1=%s Turbine Bronzemagnets
-nc.sf.leadmagnet_coil0=%s Turbine Leadmagnet
-nc.sf.leadmagnet_coil1=%s Turbine Leadmagnets
-nc.sf.nickelmagnet_coil0=%s Turbine Nickelmagnet
-nc.sf.nickelmagnet_coil1=%s Turbine Nickelmagnets
-nc.sf.steelmagnet_coil0=%s Turbine Steelmagnet
-nc.sf.steelmagnet_coil1=%s Turbine Steelmagnets
-nc.sf.tinmagnet_coil0=%s Turbine Tinmagnet
-nc.sf.tinmagnet_coil1=%s Turbine Tinmagnets
-nc.sf.ferroboronmagnet_coil0=%s Turbine Ferroboronmagnet
-nc.sf.ferroboronmagnet_coil1=%s Turbine Ferroboronmagnets
-nc.sf.siliconcarbidemagnet_coil0=%s Turbine Siliconcarbidemagnet
-nc.sf.siliconcarbidemagnet_coil1=%s Turbine Siliconcarbidemagnets
-nc.sf.invarmagnet_coil0=%s Turbine Invarmagnet
-nc.sf.invarmagnet_coil1=%s Turbine Invarmagnets
-nc.sf.potassiummagnet_coil0=%s Turbine Potassiummagnet
-nc.sf.potassiummagnet_coil1=%s Turbine Potassiummagnets
-nc.sf.chromiummagnet_coil0=%s Turbine Chromiumagnet
-nc.sf.chromiummagnet_coil1=%s Turbine Chromiumagnets
-nc.sf.tungstenmagnet_coil0=%s Turbine Tungstenmagnet
-nc.sf.tungstenmagnet_coil1=%s Turbine Tungstenmagnets
-nc.sf.zincmagnet_coil0=%s Turbine Zincmagnet
-nc.sf.zincmagnet_coil1=%s Turbine Zincmagnets
-nc.sf.neodymiummagnet_coil0=%s Turbine Neodymiumagnet
-nc.sf.neodymiummagnet_coil1=%s Turbine Neodymiumagnets
-nc.sf.osmiummagnet_coil0=%s Turbine Osmiumagnet
-nc.sf.osmiummagnet_coil1=%s Turbine Osmiumagnets
-nc.sf.iridiummagnet_coil0=%s Turbine Iridiumagnet
-nc.sf.iridiummagnet_coil1=%s Turbine Iridiumagnets
-nc.sf.samariummagnet_coil0=%s Turbine Samariumagnet
-nc.sf.samariummagnet_coil1=%s Turbine Samariumagnets
-nc.sf.nakmagnet_coil0=%s Turbine  Eutectic NaK Magnet
-nc.sf.nakmagnet_coil1=%s Turbine  Eutectic NaK Magnets
-nc.sf.antihydrogenmagnet_coil0=%s Turbine Anti-Hydrogen Magnet
-nc.sf.antihydrogenmagnet_coil1=%s Turbine Anti-Hydrogen Magnets
-
-//Stabilizer
-tile.nuclearcraft.turbine_dynamo_coil_basestabilizer.name=Basic Redstone Field Stabilizer
-nc.sf.basestabilizer_coil0=%s Basic Redstone Field Stabilizer
-nc.sf.basestabilizer_coil1=%s Basic Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_bricknetherstabilizer.name=Netherbrick Redstone Field Stabilizer
-nc.sf.bricknetherstabilizer_coil0=%s Netherbrick Redstone Field Stabilizer
-nc.sf.bricknetherstabilizer_coil1=%s Netherbrick Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_obsidianstabilizer.name=Obsidian Redstone Field Stabilizer
-nc.sf.obsidianstabilizer_coil0=%s Obsidian Redstone Field Stabilizer
-nc.sf.obsidianstabilizer_coil1=%s Obsidian Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_slimeballstabilizer.name=Slime Redstone Field Stabilizer
-nc.sf.slimeballstabilizer_coil0=%s Slime Redstone Field Stabilizer
-nc.sf.slimeballstabilizer_coil1=%s Slime Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_boronstabilizer.name=Boron Redstone Field Stabilizer
-nc.sf.boronstabilizer_coil0=%s Boron Redstone Field Stabilizer
-nc.sf.boronstabilizer_coil1=%s Boron Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_manganesedioxidestabilizer.name=Manganese Dioxide Redstone Field Stabilizer
-nc.sf.manganesedioxidestabilizer_coil0=%s Manganese Dioxide Redstone Field Stabilizer
-nc.sf.manganesedioxidestabilizer_coil1=%s Manganese Dioxide Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_manganeseoxidestabilizer.name=Manganese Oxide Redstone Field Stabilizer
-nc.sf.manganeseoxidestabilizer_coil0=%s Manganese Oxide Redstone Field Stabilizer
-nc.sf.manganeseoxidestabilizer_coil1=%s Manganese Oxide Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_zircaloystabilizer.name=Zircaloy Redstone Field Stabilizer
-nc.sf.zircaloystabilizer_coil0=%s Zircaloy Redstone Field Stabilizer
-nc.sf.zircaloystabilizer_coil1=%s Zircaloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_boronarsenidestabilizer.name=Boron Arsenide Redstone Field Stabilizer
-nc.sf.boronarsenidestabilizer_coil0=%s Boron Arsenide Redstone Field Stabilizer
-nc.sf.boronarsenidestabilizer_coil1=%s Boron Arsenide Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_boronnitridestabilizer.name=Boron Nitride Redstone Field Stabilizer
-nc.sf.boronnitridestabilizer_coil0=%s Boron Nitride Redstone Field Stabilizer
-nc.sf.boronnitridestabilizer_coil1=%s Boron Nitride Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_hardcarbonstabilizer.name=Hard Carbon Redstone Field Stabilizer
-nc.sf.hardcarbonstabilizer_coil0=%s Hard Carbon Redstone Field Stabilizer
-nc.sf.hardcarbonstabilizer_coil1=%s Hard Carbon Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_hardcarbonstabilizer.name=Hard Carbon Redstone Field Stabilizer
-nc.sf.hardcarbonstabilizer_coil0=%s Hard Carbon Redstone Field Stabilizer
-nc.sf.hardcarbonstabilizer_coil1=%s Hard Carbon Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_hslasteelstabilizer.name=HSLA Steel Redstone Field Stabilizer
-nc.sf.hslasteelstabilizer_coil0=%s HSLA Steel Redstone Field Stabilizer
-nc.sf.hslasteelstabilizer_coil1=%s HSLA Steel Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_lithiummanganesedioxidestabilizer.name=Lithium Manganese Dioxide Redstone Field Stabilizer
-nc.sf.lithiummanganesedioxidestabilizer_coil0=%s Lithium Manganese Dioxide Redstone Field Stabilizer
-nc.sf.lithiummanganesedioxidestabilizer_coil1=%s Lithium Manganese Dioxide Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_magnesiumdiboridestabilizer.name=Magnesium Diboride Redstone Field Stabilizer
-nc.sf.magnesiumdiboridestabilizer_coil0=%s Magnesium Diboride Redstone Field Stabilizer
-nc.sf.magnesiumdiboridestabilizer_coil1=%s Magnesium Diboride Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_toughstabilizer.name=Tough Alloy Redstone Field Stabilizer
-nc.sf.toughstabilizer_coil0=%s Tough Alloy Redstone Field Stabilizer
-nc.sf.toughstabilizer_coil1=%s Tough Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_extremealloystabilizer.name=Extreme Alloy Redstone Field Stabilizer
-nc.sf.extremealloystabilizer_coil0=%s Extreme Alloy Redstone Field Stabilizer
-nc.sf.extremealloystabilizer_coil1=%s Extreme Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_sicsiccmcstabilizer.name=SiC SiC CMC Redstone Field Stabilizer
-nc.sf.sicsiccmcstabilizer_coil0=%s SiC SiC CMCRedstone Field Stabilizer
-nc.sf.sicsiccmcstabilizer_coil1=%s SiC SiC CMCRedstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_sodiumstabilizer.name=Sodium Redstone Field Stabilizer
-nc.sf.sodiumstabilizer_coil0=%s Sodium Redstone Field Stabilizer
-nc.sf.sodiumstabilizer_coil1=%s Sodium Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_bariumoxidestabilizer.name=Barium Oxide Redstone Field Stabilizer
-nc.sf.coil_bariumoxidestabilizer_coil0=%s Barium Oxide Redstone Field Stabilizer
-nc.sf.coil_bariumoxidestabilizer_coil1=%s Barium Oxide Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_caesium137stabilizer.name=Caesium-137 Redstone Field Stabilizer
-nc.sf.coil_caesium137stabilizer_coil0=%s Caesium-137 Redstone Field Stabilizer
-nc.sf.coil_caesium137stabilizer_coil1=%s Caesium-137 Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_thermoconductingstabilizer.name=Thermoconducting Alloy Redstone Field Stabilizer
-nc.sf.coil_thermoconductingstabilizer_coil0=%s Thermoconducting Alloy Redstone Field Stabilizer
-nc.sf.coil_thermoconductingstabilizer_coil1=%s Thermoconducting Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_zirconiummolybdenumstabilizer.name=Zirconium-Molybdenum Alloy Redstone Field Stabilizer
-nc.sf.coil_zirconiummolybdenumstabilizer_coil0=%s Zirconium-Molybdenum Alloy Redstone Field Stabilizer
-nc.sf.coil_zirconiummolybdenumstabilizer_coil1=%s Zirconium-Molybdenum Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_nichromestabilizer.name=Nichrome Alloy Redstone Field Stabilizer
-nc.sf.coil_nichromestabilizer_coil0=%s Nichrome Alloy Redstone Field Stabilizer
-nc.sf.coil_nichromestabilizer_coil1=%s Nichrome Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_niobiumstabilizer.name=Niobium Redstone Field Stabilizer
-nc.sf.coil_niobiumstabilizer_coil0=%s Niobium Alloy Redstone Field Stabilizer
-nc.sf.coil_niobiumstabilizer_coil1=%s Niobium Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_titaniumstabilizer.name=Titanium Redstone Field Stabilizer
-nc.sf.coil_titaniumstabilizer_coil0=%s Titanium Alloy Redstone Field Stabilizer
-nc.sf.coil_titaniumstabilizer_coil1=%s Titanium Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_tungstencarbidestabilizer.name=Tungsten Carbide Redstone Field Stabilizer
-nc.sf.coil_tungstencarbidestabilizer_coil0=%s Tungsten Carbide Alloy Redstone Field Stabilizer
-nc.sf.coil_tungstencarbidestabilizer_coil1=%s Tungsten Carbide Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_bariumnitratestabilizer.name=Barium Nitrate Redstone Field Stabilizer
-nc.sf.coil_bariumnitratestabilizer_coil0=%s Barium Nitrate Alloy Redstone Field Stabilizer
-nc.sf.coil_bariumnitratestabilizer_coil1=%s Barium Nitrate Alloy Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_iodinestabilizer.name=Iodine Redstone Field Stabilizer
-nc.sf.coil_iodinestabilizer_coil0=%s Iodine Redstone Field Stabilizer
-nc.sf.coil_iodinestabilizer_coil1=%s Iodine Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_coriumstabilizer.name=Corium Redstone Field Stabilizer
-nc.sf.coil_coriumstabilizer_coil0=%s Corium Redstone Field Stabilizer
-nc.sf.coil_coriumstabilizer_coil1=%s Corium Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_liquidheliumstabilizer.name=Liquid Helium Redstone Field Stabilizer
-nc.sf.coil_liquidheliumstabilizer_coil0=%s Liquid Helium Redstone Field Stabilizer
-nc.sf.coil_liquidheliumstabilizer_coil1=%s Liquid Helium Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_liquidnitrogenstabilizer.name=Liquid Nitrogen Redstone Field Stabilizer
-nc.sf.coil_liquidnitrogenstabilizer_coil0=%s Liquid Nitrogen Redstone Field Stabilizer
-nc.sf.coil_liquidnitrogenstabilizer_coil1=%s Liquid Nitrogen Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_liquidnitrogenstabilizer.name=Liquid Nitrogen Redstone Field Stabilizer
-nc.sf.coil_liquidnitrogenstabilizer_coil0=%s Liquid Nitrogen Redstone Field Stabilizer
-nc.sf.coil_liquidnitrogenstabilizer_coil1=%s Liquid Nitrogen Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_cryotheumstabilizer.name=Gelid Cryotheum Redstone Field Stabilizer
-nc.sf.coil_cryotheumstabilizer_coil0=%s Gelid Cryotheum Redstone Field Stabilizer
-nc.sf.coil_cryotheumstabilizer_coil1=%s Gelid Cryotheum Redstone Field Stabilizers
-tile.nuclearcraft.turbine_dynamo_coil_antideuteriumstabilizer.name=Anti-Deuterium Redstone Field Stabilizer
-nc.sf.antideuteriumstabilizer_coil0=%s Anti-Deuterium Redstone Field Stabilizer
-nc.sf.antideuteriumstabilizer_coil1=%s Anti-Deuterium Redstone Field Stabilizer
-
-//Converter
-
-tile.nuclearcraft.turbine_dynamo_coil_baseconverter.name=Basic Redstone Field Converter
-nc.sf.baseconverter_coil0=%s Basic Redstone Field Converter
-nc.sf.baseconverter_coil1=%s Basic Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_lapisconverter.name=Lapis Redstone Field Converter
-nc.sf.lapisconverter_coil0=%s Lapis Redstone Field Converter
-nc.sf.lapisconverter_coil1=%s Lapis Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_diamondconverter.name=Diamond Redstone Field Converter
-nc.sf.diamondconverter_coil0=%s Diamond Redstone Field Converter
-nc.sf.diamondconverter_coil1=%s Diamond Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_emeraldconverter.name=Emerald Redstone Field Converter
-nc.sf.emeraldconverter_coil0=%s Emerald Redstone Field Converter
-nc.sf.emeraldconverter_coil1=%s Emerald Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_prismarineconverter.name=Prismarine Redstone Field Converter
-nc.sf.prismarineconverter_coil0=%s Prismarine Redstone Field Converter
-nc.sf.prismarineconverter_coil1=%s Prismarine Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_arsenicconverter.name=Arsenic Redstone Field Converter
-nc.sf.arsenicconverter_coil0=%s Arsenic Redstone Field Converter
-nc.sf.arsenicconverter_coil1=%s Arsenic Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_carobbiiteconverter.name=Carobbiite Redstone Field Converter
-nc.sf.carobbiiteconverter_coil0=%s Carobbiite Redstone Field Converter
-nc.sf.carobbiiteconverter_coil1=%s Carobbiite Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_fluoriteconverter.name=Fluorite Redstone Field Converter
-nc.sf.fluoriteconverter_coil0=%s Fluorite Redstone Field Converter
-nc.sf.fluoriteconverter_coil1=%s Fluorite Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_rhodochrositeconverter.name=Rhodochrosite Redstone Field Converter
-nc.sf.rhodochrositeconverter_coil0=%s Rhodochrosite Redstone Field Converter
-nc.sf.rhodochrositeconverter_coil1=%s Rhodochrosite Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_villiaumiteconverter.name=Villiaumite Redstone Field Converter
-nc.sf.villiaumiteconverter_coil0=%s Villiaumite Redstone Field Converter
-nc.sf.villiaumiteconverter_coil1=%s Villiaumite Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_zirconiumconverter.name=Zirconium Redstone Field Converter
-nc.sf.zirconiumconverter_coil0=%s Zirconium Redstone Field Converter
-nc.sf.zirconiumconverter_coil1=%s Zirconium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_glowstoneconverter.name=Glowstone Redstone Field Converter
-nc.sf.glowstoneconverter_coil0=%s Glowstone Redstone Field Converter
-nc.sf.glowstoneconverter_coil1=%s Glowstone Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_quartzconverter.name=Quartz Redstone Field Converter
-nc.sf.quartzconverter_coil0=%s Quartz Redstone Field Converter
-nc.sf.quartzconverter_coil1=%s Quartz Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_molybdenumconverter.name=Molybdenum Redstone Field Converter
-nc.sf.molybdenumconverter_coil0=%s Molybdenum Redstone Field Converter
-nc.sf.molybdenumconverter_coil1=%s Molybdenum Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_endstoneconverter.name=Endstone Redstone Field Converter
-nc.sf.endstoneconverter_coil0=%s Endstone Redstone Field Converter
-nc.sf.endstoneconverter_coil1=%s Endstone Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_purpurconverter.name=Purpur Redstone Field Converter
-nc.sf.purpurconverter_coil0=%s Purpur Redstone Field Converter
-nc.sf.purpurconverter_coil1=%s Purpur Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_cobaltconverter.name=Cobalt Redstone Field Converter
-nc.sf.cobaltconverter_coil0=%s Cobalt Redstone Field Converter
-nc.sf.cobaltconverter_coil1=%s Cobalt Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_lumiumconverter.name=Lumium Redstone Field Converter
-nc.sf.lumiumconverter_coil0=%s Lumium Redstone Field Converter
-nc.sf.lumiumconverter_coil1=%s Lumium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_bariumconverter.name=Barium Redstone Field Converter
-nc.sf.bariumconverter_coil0=%s Barium Redstone Field Converter
-nc.sf.bariumconverter_coil1=%s Barium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_witheriteconverter.name=Witherite Redstone Field Converter
-nc.sf.witheriteconverter_coil0=%s Witherite Redstone Field Converter
-nc.sf.witheriteconverter_coil1=%s Witherite Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_promethium147converter.name=Promethium-147 Redstone Field Converter
-nc.sf.promethium147converter_coil0=%s Promethium-147 Redstone Field Converter
-nc.sf.promethium147converter_coil1=%s Promethium-147 Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_promethium147converter.name=Mercury Redstone Field Converter
-nc.sf.promethium147converter_coil0=%s Mercury Redstone Field Converter
-nc.sf.promethium147converter_coil1=%s Mercury Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_niobiumtinconverter.name=Niobium-Tin Redstone Field Converter
-nc.sf.niobiumtinconverter_coil0=%s Niobium-Tin Redstone Field Converter
-nc.sf.niobiumtinconverter_coil1=%s Niobium-Tin Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_baratolconverter.name=Baratol Redstone Field Converter
-nc.sf.baratolconverter_coil0=%s Baratol Redstone Field Converter
-nc.sf.baratolconverter_coil1=%s Baratol Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_gold198converter.name=Gold-198 Redstone Field Converter
-nc.sf.gold198converter_coil0=%s Gold-198 Redstone Field Converter
-nc.sf.gold198converter_coil1=%s Gold-198 Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_europium155converter.name=Europium-155 Redstone Field Converter
-nc.sf.europium155converter_coil0=%s Europium-155 Redstone Field Converter
-nc.sf.europium155converter_coil1=%s Europium-155 Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_strontiumconverter.name=Strontium Redstone Field Converter
-nc.sf.strontiumconverter_coil0=%s Strontium Redstone Field Converter
-nc.sf.strontiumconverter_coil1=%s Strontium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_enderiumconverter.name=Enderium Redstone Field Converter
-nc.sf.enderiumconverter_coil0=%s Enderium Redstone Field Converter
-nc.sf.enderiumconverter_coil1=%s Enderium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_terbiumconverter.name=Terbium Redstone Field Converter
-nc.sf.terbiumconverter_coil0=%s Terbium Redstone Field Converter
-nc.sf.terbiumconverter_coil1=%s Terbium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_ytterbiumconverter.name=Ytterbium Redstone Field Converter
-nc.sf.ytterbiumconverter_coil0=%s Ytterbium Redstone Field Converter
-nc.sf.ytterbiumconverter_coil1=%s Ytterbium Redstone Field Converters
-tile.nuclearcraft.turbine_dynamo_coil_antitritiumconverter.name=Anti-Tritium Redstone Field Converter
-nc.sf.antitritiumconverter_coil0=%s Anti-Tritium Redstone Field Converter
-nc.sf.antitritiumconverter_coil1=%s Anti-Tritium Redstone Field Converters
-
-//Extractor
-tile.nuclearcraft.turbine_dynamo_coil_baseextractor.name=Basic Energy Extractor
-nc.sf.baseextractor_coil0=%s Basic Energy Extractor
-nc.sf.baseextractor_coil1=%s Basic Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_redstoneextractor.name=Redstone Energy Extractor
-nc.sf.redstoneextractor_coil0=%s Redstone Energy Extractor
-nc.sf.redstoneextractor_coil1=%s Redstone Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_aluminiumextractor.name=Aluminium Energy Extractor
-nc.sf.aluminiumextractor_coil0=%s Aluminium Energy Extractor
-nc.sf.aluminiumextractor_coil1=%s Aluminium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_copperextractor.name=Copper Energy Extractor
-nc.sf.copperextractor_coil0=%s Copper Energy Extractor
-nc.sf.copperextractor_coil1=%s Copper Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_goldextractor.name=Gold Energy Extractor
-nc.sf.goldextractor_coil0=%s Gold Energy Extractor
-nc.sf.goldextractor_coil1=%s Gold Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_berylliumextractor.name=Beryllium Energy Extractor
-nc.sf.berylliumextractor_coil0=%s Beryllium Energy Extractor
-nc.sf.berylliumextractor_coil1=%s Beryllium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_graphiteextractor.name=Graphite Energy Extractor
-nc.sf.graphiteextractor_coil0=%s Graphite Energy Extractor
-nc.sf.graphiteextractor_coil1=%s Graphite Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_magnesiumextractor.name=Magnesium Energy Extractor
-nc.sf.magnesiumextractor_coil0=%s Magnesium Energy Extractor
-nc.sf.magnesiumextractor_coil1=%s Magnesium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_silverextractor.name=Silver Energy Extractor
-nc.sf.silverextractor_coil0=%s Silver Energy Extractor
-nc.sf.silverextractor_coil1=%s Silver Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_signalumextractor.name=Signalum Energy Extractor
-nc.sf.signalumextractor_coil0=%s Signalum Energy Extractor
-nc.sf.signalumextractor_coil1=%s Signalum Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_smoreextractor.name=S'More S'Mingot Energy Extractor
-nc.sf.smoreextractor_coil0=%s S'More S'Mingot Energy Extractor
-nc.sf.smoreextractor_coil1=%s S'More S'Mingot Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_electrumextractor.name=Electrum Energy Extractor
-nc.sf.electrumextractor_coil0=%s Electrum Energy Extractor
-nc.sf.electrumextractor_coil1=%s Electrum Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_calciumextractor.name=Calcium Energy Extractor
-nc.sf.calciumextractor_coil0=%s Calcium Energy Extractor
-nc.sf.calciumextractor_coil1=%s Calcium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_hafniumextractor.name=Hafnium Energy Extractor
-nc.sf.hafniumextractor_coil0=%s Hafnium Energy Extractor
-nc.sf.hafniumextractor_coil1=%s Hafnium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_lithium6deuterideextractor.name=Lithium-6 Deuteride Energy Extractor
-nc.sf.lithium6deuterideextractor_coil0=%s Lithium-6 Deuteride Energy Extractor
-nc.sf.lithium6deuterideextractor_coil1=%s Lithium-6 Deuteride Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_superalloyextractor.name=Super Alloy Energy Extractor
-nc.sf.superalloyextractor_coil0=%s Super Alloy Energy Extractor
-nc.sf.superalloyextractor_coil1=%s Super Alloy Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_yttriumextractor.name=Yttrium Energy Extractor
-nc.sf.yttriumextractor_coil0=%s Yttrium Energy Extractor
-nc.sf.yttriumextractor_coil1=%s Yttrium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_platinumextractor.name=Platinum Energy Extractor
-nc.sf.platinumextractor_coil0=%s Platinum Energy Extractor
-nc.sf.platinumextractor_coil1=%s Platinum Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_erbiumextractor.name=Erbium Energy Extractor
-nc.sf.erbiumextractor_coil0=%s Erbium Energy Extractor
-nc.sf.erbiumextractor_coil1=%s Erbium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_radioactiveearthextractor.name=Radioactive Earth Energy Extractor
-nc.sf.radioactiveearthextractor_coil0=%s Radioactive Earth Energy Extractor
-nc.sf.radioactiveearthextractor_coil1=%s Radioactive Earth Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_osmiridiumextractor.name=Osmiridium Energy Extractor
-nc.sf.osmiridiumextractor_coil0=%s Osmiridium Energy Extractor
-nc.sf.osmiridiumextractor_coil1=%s Osmiridium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_antiheliumextractor.name=Anti-Helium Energy Extractor
-nc.sf.antiheliumextractor_coil0=%s Anti-Helium Energy Extractor
-nc.sf.antiheliumextractor_coil1=%s Anti-Helium Energy Extractors
-tile.nuclearcraft.turbine_dynamo_coil_antihelium3extractor.name=Anti-Helium-3 Energy Extractor
-nc.sf.antihelium3extractor_coil0=%s Anti-Helium-3 Energy Extractor
-nc.sf.antihelium3extractor_coil1=%s Anti-Helium-3 Energy Extractors
-
-
-//tile.nuclearcraft.turbine_rotor_stator_thorium.name=Thorium tempered Turbine Rotor Stator
-//tile.nuclearcraft.turbine_rotor_stator_uranium.name=DU tempered Turbine Rotor Stator
-//tile.nuclearcraft.turbine_rotor_blade_neptunium.name=Neptunium tempered Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_plutonium.name=Plutonium tempered Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_americium.name=Americium tempered Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_curium.name=Curium tempered Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_berkelium.name=Berkelium tempered Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_californium.name=Californium tempered Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_niosteel.name=Niobium-Steel Alloy Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_extremenio.name=Extreme-Niobium Alloy Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_sicnio.name=SiC-Niobium-CMC Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_elektron90.name=Unwieldy Elektron90 Alloy Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_elektron192.name=Unwieldy Elektron192 Alloy Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_elektron231.name=Unwieldy Elektron231 Alloy Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_edelstahl.name=Ultra Light Edelstahl Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_legierung.name=Ultra Light Edle Elektronlegierung Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_matrix.name=Ultra Light Matrix-Legierung Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_blade_copernicum.name=Superalloyed Copernicum Turbine Rotor Blade
-//tile.nuclearcraft.turbine_rotor_stator_elektron.name=Elektron60-Alloy Turbine Rotor Stator
-//tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
-
-
-# AlloyHeatSinks
-
-tile.nuclearcraft.solid_fission_sink_magnalium.name=Magnalium Fission Heat Sink
-tile.nuclearcraft.solid_fission_sink_hydronalium.name=Hydronalium Fission Heat Sink
-tile.nuclearcraft.solid_fission_sink_billon.name=Billon Fission Heat Sink
-tile.nuclearcraft.solid_fission_sink_brass.name=Brass Fission Heat Sink
-tile.nuclearcraft.solid_fission_sink_nitinol.name=Nitinol Fission Heat Sink
-tile.nuclearcraft.solid_fission_sink_ni_be.name=Nickel Beryllium Fission Heat Sink
-tile.nuclearcraft.solid_fission_sink_ferrochrome.name=Ferrochrome Fission Heat Sink
-
-
-nc.sf.magnalium_sink0=%s magnalium heat sink
-nc.sf.magnalium_sink1=%s magnalium heat sinks
-
-nc.sf.hydronalium_sink0=%s hydronalium heat sink
-nc.sf.hydronalium_sink1=%s hydronalium heat sinks
-
-nc.sf.billon_sink0=%s billon heat sink
-nc.sf.billon_sink1=%s billon heat sinks
-
-nc.sf.brass_sink0=%s brass heat sink
-nc.sf.brass_sink1=%s brass heat sinks
-
-nc.sf.nitinol_sink0=%s nitinol heat sink
-nc.sf.nitinol_sink1=%s nitinol heat sinks
-
-nc.sf.ferrochrome_sink0=%s ferrochrome heat sink
-nc.sf.ferrochrome_sink1=%s ferrochrome heat sinks
-
-nc.sf.ni_be_sink0=%s ni_be heat sink
-nc.sf.ni_be_sink1=%s ni_be heat sinks
-
-
-tile.nuclearcraft.fission_heater_port_magnalium.name=Magnalium Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_magnalium.name=Magnalium Coolant Heater
-
-tile.nuclearcraft.fission_heater_port_hydronalium.name=Hydronalium Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_hydronalium.name=Hydronalium Coolant Heater
-
-tile.nuclearcraft.fission_heater_port_billon.name=Billon Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_billon.name=Billon Coolant Heater
-
-tile.nuclearcraft.fission_heater_port_brass.name=Brass Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_brass.name=Brass Coolant Heater
-
-tile.nuclearcraft.fission_heater_port_ferrochrome.name=Ferrochrome Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_ferrochrome.name=Ferrochrome Coolant Heater
-
-tile.nuclearcraft.fission_heater_port_nitinol.name=Nitinol Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_nitinol.name=Nitinol Coolant Heater
-
-tile.nuclearcraft.fission_heater_port_ni_be.name=Nickel Beryllium Coolant Heater Port
-tile.nuclearcraft.salt_fission_heater_ni_be.name=Nickel Beryllium Coolant Heater
-
-
-nc.sf.magnalium_heater0=%s magnalium heater
-nc.sf.magnalium_heater1=%s magnalium heaters
-
-nc.sf.hydronalium_heater0=%s hydronalium heater
-nc.sf.hydronalium_heater1=%s hydronalium heaters
-
-nc.sf.billon_heater0=%s billon heater
-nc.sf.billon_heater1=%s billon heaters
-
-nc.sf.brass_heater0=%s brass heater
-nc.sf.brass_heater1=%s brass heaters
-
-nc.sf.ferrochrome_heater0=%s ferrochrome heater
-nc.sf.ferrochrome_heater1=%s ferrochrome heaters
-
-nc.sf.nitinol_heater0=%s nitinol heater
-nc.sf.nitinol_heater1=%s nitinol heaters
-
-nc.sf.ni_be_heater0=%s ni_be heater
-nc.sf.ni_be_heater1=%s ni_be heaters
-
-
-fluid.magnalium_nak=Eutectic NaK-Magnalium Mixture
-fluid.magnalium_nak_hot=Hot Eutectic NaK-Magnalium Mixture
-
-fluid.hydronalium_nak=Eutectic NaK-Hydronalium Mixture
-fluid.hydronalium_nak_hot=Hot Eutectic NaK-Hydronalium Mixture
-
-fluid.billon_nak=Eutectic NaK-Billon Mixture
-fluid.billon_nak_hot=Hot Eutectic NaK-Billon Mixture
-
-fluid.brass_nak=Eutectic NaK-Brass Mixture
-fluid.brass_nak_hot=Hot Eutectic NaK-Brass Mixture
-
-fluid.ferrochrome_nak=Eutectic NaK-Ferrochrome Mixture
-fluid.ferrochrome_nak_hot=Hot Eutectic NaK-Ferrochrome Mixture
-
-fluid.nitinol_nak=Eutectic NaK-Nitinol Mixture
-fluid.nitinol_nak_hot=Hot Eutectic NaK-Nitinol Mixture
-
-fluid.ni_be_nak=Eutectic NaK-Nickel Beryllium Mixture
-fluid.ni_be_nak_hot=Hot Eutectic NaK-Nickel Beryllium Mixture
-
-fluid.magnalium=Molten Magnalium Alloy
-fluid.hydronalium=Molten Hydronalium Alloy
-fluid.billon=Molten Billon Alloy
-fluid.brass=Molten Brass Alloy
-fluid.ferrochrome=Molten Ferrochrome Alloy
-fluid.nitinol=Molten Nitinol Alloy
-fluid.ni_be=Molten Nickel Beryllium Alloy
-
-item.contenttweaker.ingot_magnalium.name=Magnalium Ingot
-item.contenttweaker.ingot_hydronalium.name=Hydronalium Ingot
-item.contenttweaker.ingot_billon.name=Billon Ingot
-item.contenttweaker.ingot_brass.name=Brass Ingot
-item.contenttweaker.ingot_ferrochrome.name=Ferrochrome Ingot
-item.contenttweaker.ingot_nitinol.name=Nitinol Ingot
-item.contenttweaker.ingot_ni_be.name=Nickel-Beryllium Ingot
-
 # MoarFuels
 
 item.contenttweaker.californium53.name=Californium-253
@@ -2619,100 +2134,48 @@ fluid.depleted_cbcf=Molten Depleted CBCf Fuel
 fluid.depleted_cbcf_fluoride=Molten Depleted CBCf Fluoride Fuel
 fluid.depleted_cbcf_fluoride_flibe=Molten FLiBe Salt Solution of Depleted CBCf Fluoride Fuel
 
-# ThoriumMixedFuels
+# MoarReactorFunctionality
 
-item.nuclearcraft.thoriumfuels.uat233.name=UAT-233 
-item.nuclearcraft.thoriumfuels.uat235.name=UAT-235 
-item.nuclearcraft.thoriumfuels.nat236.name=NAT-236 
-item.nuclearcraft.thoriumfuels.pat239.name=PAT-239
-item.nuclearcraft.thoriumfuels.pat241.name=PAT-241 
-item.nuclearcraft.thoriumfuels.aat242.name=AAT-242 
-item.nuclearcraft.thoriumfuels.cmat243.name=CmAT-243 
-item.nuclearcraft.thoriumfuels.cmat245.name=CmAT-245 
-item.nuclearcraft.thoriumfuels.cmat247.name=CmAT-247 
-item.nuclearcraft.thoriumfuels.bat248.name=BAT-248 
-item.nuclearcraft.thoriumfuels.cfat249.name=CfAT-249 
-item.nuclearcraft.thoriumfuels.cfat251.name=CfAT-251 
+item.contenttweaker.blaster.name=Small Compression Charge
+item.contenttweaker.compressed_air_canister.name=Can of Compressed Air (Deprecated)
+item.contenttweaker.radio_waste.name=Standardized Reprocessed Nuclear Waste Pellet
 
-item.nuclearcraft.thoriumfuels.uat233_ni.name=UAT-233 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.uat235_ni.name=UAT-235 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.nat236_ni.name=NAT-236 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.pat239_ni.name=PAT-239 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.pat241_ni.name=PAT-241 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.aat242_ni.name=AAT-242 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat243_ni.name=CmAT-243 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat245_ni.name=CmAT-245 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat247_ni.name=CmAT-247 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.bat248_ni.name=BAT-248 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.cfat249_ni.name=CfAT-249 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.cfat251_ni.name=CfAT-251 Nitride Fuel Pellet
+fluid.liquid_air=Lesser Air Products
+fluid.nether_air=Nether Air
+fluid.end_air=End Air
+fluid.well_pressed_water=Well Pressurized Water
+fluid.super_critical_steam=Supercritical Steam
+fluid.crap_steam=Crap Steam
+fluid.hot_nitrogen=Hot Nitrogen
+fluid.hot_carbon_dioxide=Hot Carbon Dioxide
+fluid.hot_helium=Hot Helium
+fluid.hot_argon=Hot Argon
+fluid.krypton=Krypton
+fluid.hot_krypton=Hot Krypton
+fluid.xenon=Xenon
+fluid.hot_xenon=Hot Xenon
+fluid.hot_neon=Hot Neon
+fluid.compr_carbon_dioxide=Compressed Carbon Dioxide
+fluid.supercritical_carbon_dioxide=Supercritical Carbon Dioxide
+fluid.critical_exhaust_carbon_dioxide=Critical Exhaust Carbon Dioxide
 
-item.nuclearcraft.thoriumfuels.uat233_ox.name=UAT-233 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.uat235_ox.name=UAT-235 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.nat236_ox.name=NAT-236 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.pat239_ox.name=PAT-239 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.pat241_ox.name=PAT-241 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.aat242_ox.name=AAT-242 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat243_ox.name=CmAT-243 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat245_ox.name=CmAT-245 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat247_ox.name=CmAT-247 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.bat248_ox.name=BAT-248 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.cfat249_ox.name=CfAT-249 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.cfat251_ox.name=CfAT-251 Oxide Fuel Pellet
+tile.contenttweaker.water_mod.name=Light Water Moderator
+tile.contenttweaker.pu_schmeared_be_mod.name=Plutonium-238 Schmeared Beryllium Moderator
+tile.contenttweaker.hydrocarbon_mod.name=Hydrocarbon Moderator
+tile.contenttweaker.cf_neutron_multiplier.name=Neutron Reflector-Multiplier
 
-item.nuclearcraft.thoriumfuels.uat233_za.name=UAT-233 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.uat235_za.name=UAT-235 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.nat236_za.name=NAT-236 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.pat239_za.name=PAT-239 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.pat241_za.name=PAT-241 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.aat242_za.name=AAT-242 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat243_za.name=CmAT-243 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat245_za.name=CmAT-245 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.cmat247_za.name=CmAT-247 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.bat248_za.name=BAT-248 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.cfat249_za.name=CfAT-249 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.cfat251_za.name=CfAT-251 Zirconium Alloy Fuel Pellet
+fluid.cold_nrg=Lukewarm Liquid Energy
+fluid.hot_nrg=Hot Liquid Energy
+fluid.hot_deuterium=Hot Deuterium Plasma
+fluid.hot_tritium=Hot Tritium Plasma
 
-item.nuclearcraft.thoriumfuels.depleted_uat233_ni.name=Depleted UAT-233 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_uat235_ni.name=Depleted UAT-235 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_nat236_ni.name=Depleted NAT-236 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_pat239_ni.name=Depleted PAT-239 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_pat241_ni.name=Depleted PAT-241 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_aat242_ni.name=Depleted AAT-242 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat243_ni.name=Depleted CmAT-243 Nitride  Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat245_ni.name=Depleted CmAT-245 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat247_ni.name=Depleted CmAT-247 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_bat248_ni.name=Depleted BAT-248 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cfat249_ni.name=Depleted CfAT-249 Nitride Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cfat251_ni.name=Depleted CfAT-251 Nitride Fuel Pellet
+itemGroup.moar_reactor_functionality=Moar Reactor Functionality
 
-item.nuclearcraft.thoriumfuels.depleted_uat233_ox.name=Depleted UAT-233 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_uat235_ox.name=Depleted UAT-235 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_nat236_ox.name=Depleted NAT-236 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_pat239_ox.name=Depleted PAT-239 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_pat241_ox.name=Depleted PAT-241 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_aat242_ox.name=Depleted AAT-242 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat243_ox.name=Depleted CmAT-243 Oxide  Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat245_ox.name=Depleted CmAT-245 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat247_ox.name=Depleted CmAT-247 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_bat248_ox.name=Depleted BAT-248 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cfat249_ox.name=Depleted CfAT-249 Oxide Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cfat251_ox.name=Depleted CfAT-251 Oxide Fuel Pellet
-
-item.nuclearcraft.thoriumfuels.depleted_uat233_za.name=Depleted UAT-233 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_uat235_za.name=Depleted UAT-235 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_nat236_za.name=Depleted NAT-236 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_pat239_za.name=Depleted PAT-239 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_pat241_za.name=Depleted PAT-241 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_aat242_za.name=Depleted AAT-242 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat243_za.name=Depleted CmAT-243 Zirconium Alloy  Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat245_za.name=Depleted CmAT-245 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cmat247_za.name=Depleted CmAT-247 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_bat248_za.name=Depleted BAT-248 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cfat249_za.name=Depleted CfAT-249 Zirconium Alloy Fuel Pellet
-item.nuclearcraft.thoriumfuels.depleted_cfat251_za.name=Depleted CfAT-251 Zirconium Alloy Fuel Pellet
-
-
+tile.nuclearcraft.fission_source_actinium.name=Ac-Be Fission Neutron Source
+tile.nuclearcraft.fission_source_curium244.name=Cm-Be Fission Neutron Source
+tile.nuclearcraft.fission_source_curium250.name=Cm-250 Fission Neutron Source
+tile.nuclearcraft.fission_source_fermium257.name=Fm-257 Fission Neutron Source
+tile.nuclearcraft.fission_source_californium254.name=Cf-254 Fission Neutron Source
 
 # NCOUTO
 
@@ -2940,6 +2403,620 @@ nc.sf.baratol_coil1=%s Baratol dynamo coils
 
 tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
 
+
+# SciNTP
+
+//Magnets
+tile.nuclearcraft.turbine_dynamo_coil_basemagnet.name=Basic Induction Turbine Magnet
+tile.nuclearcraft.turbine_dynamo_coil_ironmagnet.name=Turbine Ironmagnet
+tile.nuclearcraft.turbine_dynamo_coil_lithiummagnet.name=Turbine Lithiumagnet
+tile.nuclearcraft.turbine_dynamo_coil_constantanmagnet.name=Turbine Constantanmagnet
+tile.nuclearcraft.turbine_dynamo_coil_manganesemagnet.name=Turbine Manganesemagnet
+tile.nuclearcraft.turbine_dynamo_coil_bronzemagnet.name=Turbine Bronzemagnet
+tile.nuclearcraft.turbine_dynamo_coil_leadmagnet.name=Turbine Leadmagnet
+tile.nuclearcraft.turbine_dynamo_coil_nickelmagnet.name=Turbine Nickelmagnet
+tile.nuclearcraft.turbine_dynamo_coil_steelmagnet.name=Turbine Steelmagnet
+tile.nuclearcraft.turbine_dynamo_coil_tinmagnet.name=Turbine Tinmagnet 
+tile.nuclearcraft.turbine_dynamo_coil_ferroboronmagnet.name=Turbine Ferroboronmagnet
+tile.nuclearcraft.turbine_dynamo_coil_siliconcarbidemagnet.name=Turbine Siliconcarbidemagnet
+tile.nuclearcraft.turbine_dynamo_coil_invarmagnet.name=Turbine Invarmagnet
+tile.nuclearcraft.turbine_dynamo_coil_potassiummagnet.name=Turbine Potassiumagnet
+tile.nuclearcraft.turbine_dynamo_coil_chromiummagnet.name=Turbine Chromiumagnet
+tile.nuclearcraft.turbine_dynamo_coil_tungstenmagnet.name=Turbine Tungstenmagnet
+tile.nuclearcraft.turbine_dynamo_coil_zincmagnet.name=Turbine Zincmagnet
+tile.nuclearcraft.turbine_dynamo_coil_neodymiummagnet.name=Turbine Neodymiumagnet
+tile.nuclearcraft.turbine_dynamo_coil_osmiummagnet.name=Turbine Osmiumagnet
+tile.nuclearcraft.turbine_dynamo_coil_iridiummagnet.name=Turbine Iridiumagnet
+tile.nuclearcraft.turbine_dynamo_coil_samariummagnet.name=Turbine Samariumagnet
+tile.nuclearcraft.turbine_dynamo_coil_nakmagnet.name=Turbine Eutectic NaK Magnet
+tile.nuclearcraft.turbine_dynamo_coil_antihydrogenmagnet.name=Turbine Anti-Hydrogen Magnet
+
+nc.sf.basemagnet_coil0=%s Basic Induction Turbine Magnet
+nc.sf.basemagnet_coil1=%s Basic Induction Turbine Magnets
+nc.sf.ironmagnet_coil0=%s Turbine Ironmagnet
+nc.sf.ironmagnet_coil1=%s Turbine Ironmagnets
+nc.sf.lithiummagnet_coil0=%s Turbine Lithiumagnet
+nc.sf.lithiummagnet_coil1=%s Turbine Lithiumagnets
+nc.sf.constantanmagnet_coil0=%s Turbine Constantanmagnet
+nc.sf.constantanmagnet_coil1=%s Turbine Constantanmagnets
+nc.sf.manganesemagnet_coil0=%s Turbine Manganesemagnet
+nc.sf.manganesemagnet_coil1=%s Turbine Manganesemagnets
+nc.sf.bronzemagnet_coil0=%s Turbine Bronzemagnet
+nc.sf.bronzemagnet_coil1=%s Turbine Bronzemagnets
+nc.sf.leadmagnet_coil0=%s Turbine Leadmagnet
+nc.sf.leadmagnet_coil1=%s Turbine Leadmagnets
+nc.sf.nickelmagnet_coil0=%s Turbine Nickelmagnet
+nc.sf.nickelmagnet_coil1=%s Turbine Nickelmagnets
+nc.sf.steelmagnet_coil0=%s Turbine Steelmagnet
+nc.sf.steelmagnet_coil1=%s Turbine Steelmagnets
+nc.sf.tinmagnet_coil0=%s Turbine Tinmagnet
+nc.sf.tinmagnet_coil1=%s Turbine Tinmagnets
+nc.sf.ferroboronmagnet_coil0=%s Turbine Ferroboronmagnet
+nc.sf.ferroboronmagnet_coil1=%s Turbine Ferroboronmagnets
+nc.sf.siliconcarbidemagnet_coil0=%s Turbine Siliconcarbidemagnet
+nc.sf.siliconcarbidemagnet_coil1=%s Turbine Siliconcarbidemagnets
+nc.sf.invarmagnet_coil0=%s Turbine Invarmagnet
+nc.sf.invarmagnet_coil1=%s Turbine Invarmagnets
+nc.sf.potassiummagnet_coil0=%s Turbine Potassiummagnet
+nc.sf.potassiummagnet_coil1=%s Turbine Potassiummagnets
+nc.sf.chromiummagnet_coil0=%s Turbine Chromiumagnet
+nc.sf.chromiummagnet_coil1=%s Turbine Chromiumagnets
+nc.sf.tungstenmagnet_coil0=%s Turbine Tungstenmagnet
+nc.sf.tungstenmagnet_coil1=%s Turbine Tungstenmagnets
+nc.sf.zincmagnet_coil0=%s Turbine Zincmagnet
+nc.sf.zincmagnet_coil1=%s Turbine Zincmagnets
+nc.sf.neodymiummagnet_coil0=%s Turbine Neodymiumagnet
+nc.sf.neodymiummagnet_coil1=%s Turbine Neodymiumagnets
+nc.sf.osmiummagnet_coil0=%s Turbine Osmiumagnet
+nc.sf.osmiummagnet_coil1=%s Turbine Osmiumagnets
+nc.sf.iridiummagnet_coil0=%s Turbine Iridiumagnet
+nc.sf.iridiummagnet_coil1=%s Turbine Iridiumagnets
+nc.sf.samariummagnet_coil0=%s Turbine Samariumagnet
+nc.sf.samariummagnet_coil1=%s Turbine Samariumagnets
+nc.sf.nakmagnet_coil0=%s Turbine  Eutectic NaK Magnet
+nc.sf.nakmagnet_coil1=%s Turbine  Eutectic NaK Magnets
+nc.sf.antihydrogenmagnet_coil0=%s Turbine Anti-Hydrogen Magnet
+nc.sf.antihydrogenmagnet_coil1=%s Turbine Anti-Hydrogen Magnets
+
+//Stabilizer
+tile.nuclearcraft.turbine_dynamo_coil_basestabilizer.name=Basic Redstone Field Stabilizer
+nc.sf.basestabilizer_coil0=%s Basic Redstone Field Stabilizer
+nc.sf.basestabilizer_coil1=%s Basic Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_bricknetherstabilizer.name=Netherbrick Redstone Field Stabilizer
+nc.sf.bricknetherstabilizer_coil0=%s Netherbrick Redstone Field Stabilizer
+nc.sf.bricknetherstabilizer_coil1=%s Netherbrick Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_obsidianstabilizer.name=Obsidian Redstone Field Stabilizer
+nc.sf.obsidianstabilizer_coil0=%s Obsidian Redstone Field Stabilizer
+nc.sf.obsidianstabilizer_coil1=%s Obsidian Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_slimeballstabilizer.name=Slime Redstone Field Stabilizer
+nc.sf.slimeballstabilizer_coil0=%s Slime Redstone Field Stabilizer
+nc.sf.slimeballstabilizer_coil1=%s Slime Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_boronstabilizer.name=Boron Redstone Field Stabilizer
+nc.sf.boronstabilizer_coil0=%s Boron Redstone Field Stabilizer
+nc.sf.boronstabilizer_coil1=%s Boron Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_manganesedioxidestabilizer.name=Manganese Dioxide Redstone Field Stabilizer
+nc.sf.manganesedioxidestabilizer_coil0=%s Manganese Dioxide Redstone Field Stabilizer
+nc.sf.manganesedioxidestabilizer_coil1=%s Manganese Dioxide Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_manganeseoxidestabilizer.name=Manganese Oxide Redstone Field Stabilizer
+nc.sf.manganeseoxidestabilizer_coil0=%s Manganese Oxide Redstone Field Stabilizer
+nc.sf.manganeseoxidestabilizer_coil1=%s Manganese Oxide Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_zircaloystabilizer.name=Zircaloy Redstone Field Stabilizer
+nc.sf.zircaloystabilizer_coil0=%s Zircaloy Redstone Field Stabilizer
+nc.sf.zircaloystabilizer_coil1=%s Zircaloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_boronarsenidestabilizer.name=Boron Arsenide Redstone Field Stabilizer
+nc.sf.boronarsenidestabilizer_coil0=%s Boron Arsenide Redstone Field Stabilizer
+nc.sf.boronarsenidestabilizer_coil1=%s Boron Arsenide Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_boronnitridestabilizer.name=Boron Nitride Redstone Field Stabilizer
+nc.sf.boronnitridestabilizer_coil0=%s Boron Nitride Redstone Field Stabilizer
+nc.sf.boronnitridestabilizer_coil1=%s Boron Nitride Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_hardcarbonstabilizer.name=Hard Carbon Redstone Field Stabilizer
+nc.sf.hardcarbonstabilizer_coil0=%s Hard Carbon Redstone Field Stabilizer
+nc.sf.hardcarbonstabilizer_coil1=%s Hard Carbon Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_hardcarbonstabilizer.name=Hard Carbon Redstone Field Stabilizer
+nc.sf.hardcarbonstabilizer_coil0=%s Hard Carbon Redstone Field Stabilizer
+nc.sf.hardcarbonstabilizer_coil1=%s Hard Carbon Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_hslasteelstabilizer.name=HSLA Steel Redstone Field Stabilizer
+nc.sf.hslasteelstabilizer_coil0=%s HSLA Steel Redstone Field Stabilizer
+nc.sf.hslasteelstabilizer_coil1=%s HSLA Steel Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_lithiummanganesedioxidestabilizer.name=Lithium Manganese Dioxide Redstone Field Stabilizer
+nc.sf.lithiummanganesedioxidestabilizer_coil0=%s Lithium Manganese Dioxide Redstone Field Stabilizer
+nc.sf.lithiummanganesedioxidestabilizer_coil1=%s Lithium Manganese Dioxide Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_magnesiumdiboridestabilizer.name=Magnesium Diboride Redstone Field Stabilizer
+nc.sf.magnesiumdiboridestabilizer_coil0=%s Magnesium Diboride Redstone Field Stabilizer
+nc.sf.magnesiumdiboridestabilizer_coil1=%s Magnesium Diboride Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_toughstabilizer.name=Tough Alloy Redstone Field Stabilizer
+nc.sf.toughstabilizer_coil0=%s Tough Alloy Redstone Field Stabilizer
+nc.sf.toughstabilizer_coil1=%s Tough Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_extremealloystabilizer.name=Extreme Alloy Redstone Field Stabilizer
+nc.sf.extremealloystabilizer_coil0=%s Extreme Alloy Redstone Field Stabilizer
+nc.sf.extremealloystabilizer_coil1=%s Extreme Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_sicsiccmcstabilizer.name=SiC SiC CMC Redstone Field Stabilizer
+nc.sf.sicsiccmcstabilizer_coil0=%s SiC SiC CMCRedstone Field Stabilizer
+nc.sf.sicsiccmcstabilizer_coil1=%s SiC SiC CMCRedstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_sodiumstabilizer.name=Sodium Redstone Field Stabilizer
+nc.sf.sodiumstabilizer_coil0=%s Sodium Redstone Field Stabilizer
+nc.sf.sodiumstabilizer_coil1=%s Sodium Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_bariumoxidestabilizer.name=Barium Oxide Redstone Field Stabilizer
+nc.sf.coil_bariumoxidestabilizer_coil0=%s Barium Oxide Redstone Field Stabilizer
+nc.sf.coil_bariumoxidestabilizer_coil1=%s Barium Oxide Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_caesium137stabilizer.name=Caesium-137 Redstone Field Stabilizer
+nc.sf.coil_caesium137stabilizer_coil0=%s Caesium-137 Redstone Field Stabilizer
+nc.sf.coil_caesium137stabilizer_coil1=%s Caesium-137 Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_thermoconductingstabilizer.name=Thermoconducting Alloy Redstone Field Stabilizer
+nc.sf.coil_thermoconductingstabilizer_coil0=%s Thermoconducting Alloy Redstone Field Stabilizer
+nc.sf.coil_thermoconductingstabilizer_coil1=%s Thermoconducting Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_zirconiummolybdenumstabilizer.name=Zirconium-Molybdenum Alloy Redstone Field Stabilizer
+nc.sf.coil_zirconiummolybdenumstabilizer_coil0=%s Zirconium-Molybdenum Alloy Redstone Field Stabilizer
+nc.sf.coil_zirconiummolybdenumstabilizer_coil1=%s Zirconium-Molybdenum Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_nichromestabilizer.name=Nichrome Alloy Redstone Field Stabilizer
+nc.sf.coil_nichromestabilizer_coil0=%s Nichrome Alloy Redstone Field Stabilizer
+nc.sf.coil_nichromestabilizer_coil1=%s Nichrome Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_niobiumstabilizer.name=Niobium Redstone Field Stabilizer
+nc.sf.coil_niobiumstabilizer_coil0=%s Niobium Alloy Redstone Field Stabilizer
+nc.sf.coil_niobiumstabilizer_coil1=%s Niobium Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_titaniumstabilizer.name=Titanium Redstone Field Stabilizer
+nc.sf.coil_titaniumstabilizer_coil0=%s Titanium Alloy Redstone Field Stabilizer
+nc.sf.coil_titaniumstabilizer_coil1=%s Titanium Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_tungstencarbidestabilizer.name=Tungsten Carbide Redstone Field Stabilizer
+nc.sf.coil_tungstencarbidestabilizer_coil0=%s Tungsten Carbide Alloy Redstone Field Stabilizer
+nc.sf.coil_tungstencarbidestabilizer_coil1=%s Tungsten Carbide Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_bariumnitratestabilizer.name=Barium Nitrate Redstone Field Stabilizer
+nc.sf.coil_bariumnitratestabilizer_coil0=%s Barium Nitrate Alloy Redstone Field Stabilizer
+nc.sf.coil_bariumnitratestabilizer_coil1=%s Barium Nitrate Alloy Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_iodinestabilizer.name=Iodine Redstone Field Stabilizer
+nc.sf.coil_iodinestabilizer_coil0=%s Iodine Redstone Field Stabilizer
+nc.sf.coil_iodinestabilizer_coil1=%s Iodine Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_coriumstabilizer.name=Corium Redstone Field Stabilizer
+nc.sf.coil_coriumstabilizer_coil0=%s Corium Redstone Field Stabilizer
+nc.sf.coil_coriumstabilizer_coil1=%s Corium Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_liquidheliumstabilizer.name=Liquid Helium Redstone Field Stabilizer
+nc.sf.coil_liquidheliumstabilizer_coil0=%s Liquid Helium Redstone Field Stabilizer
+nc.sf.coil_liquidheliumstabilizer_coil1=%s Liquid Helium Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_liquidnitrogenstabilizer.name=Liquid Nitrogen Redstone Field Stabilizer
+nc.sf.coil_liquidnitrogenstabilizer_coil0=%s Liquid Nitrogen Redstone Field Stabilizer
+nc.sf.coil_liquidnitrogenstabilizer_coil1=%s Liquid Nitrogen Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_liquidnitrogenstabilizer.name=Liquid Nitrogen Redstone Field Stabilizer
+nc.sf.coil_liquidnitrogenstabilizer_coil0=%s Liquid Nitrogen Redstone Field Stabilizer
+nc.sf.coil_liquidnitrogenstabilizer_coil1=%s Liquid Nitrogen Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_cryotheumstabilizer.name=Gelid Cryotheum Redstone Field Stabilizer
+nc.sf.coil_cryotheumstabilizer_coil0=%s Gelid Cryotheum Redstone Field Stabilizer
+nc.sf.coil_cryotheumstabilizer_coil1=%s Gelid Cryotheum Redstone Field Stabilizers
+tile.nuclearcraft.turbine_dynamo_coil_antideuteriumstabilizer.name=Anti-Deuterium Redstone Field Stabilizer
+nc.sf.antideuteriumstabilizer_coil0=%s Anti-Deuterium Redstone Field Stabilizer
+nc.sf.antideuteriumstabilizer_coil1=%s Anti-Deuterium Redstone Field Stabilizer
+
+//Converter
+
+tile.nuclearcraft.turbine_dynamo_coil_baseconverter.name=Basic Redstone Field Converter
+nc.sf.baseconverter_coil0=%s Basic Redstone Field Converter
+nc.sf.baseconverter_coil1=%s Basic Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_lapisconverter.name=Lapis Redstone Field Converter
+nc.sf.lapisconverter_coil0=%s Lapis Redstone Field Converter
+nc.sf.lapisconverter_coil1=%s Lapis Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_diamondconverter.name=Diamond Redstone Field Converter
+nc.sf.diamondconverter_coil0=%s Diamond Redstone Field Converter
+nc.sf.diamondconverter_coil1=%s Diamond Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_emeraldconverter.name=Emerald Redstone Field Converter
+nc.sf.emeraldconverter_coil0=%s Emerald Redstone Field Converter
+nc.sf.emeraldconverter_coil1=%s Emerald Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_prismarineconverter.name=Prismarine Redstone Field Converter
+nc.sf.prismarineconverter_coil0=%s Prismarine Redstone Field Converter
+nc.sf.prismarineconverter_coil1=%s Prismarine Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_arsenicconverter.name=Arsenic Redstone Field Converter
+nc.sf.arsenicconverter_coil0=%s Arsenic Redstone Field Converter
+nc.sf.arsenicconverter_coil1=%s Arsenic Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_carobbiiteconverter.name=Carobbiite Redstone Field Converter
+nc.sf.carobbiiteconverter_coil0=%s Carobbiite Redstone Field Converter
+nc.sf.carobbiiteconverter_coil1=%s Carobbiite Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_fluoriteconverter.name=Fluorite Redstone Field Converter
+nc.sf.fluoriteconverter_coil0=%s Fluorite Redstone Field Converter
+nc.sf.fluoriteconverter_coil1=%s Fluorite Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_rhodochrositeconverter.name=Rhodochrosite Redstone Field Converter
+nc.sf.rhodochrositeconverter_coil0=%s Rhodochrosite Redstone Field Converter
+nc.sf.rhodochrositeconverter_coil1=%s Rhodochrosite Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_villiaumiteconverter.name=Villiaumite Redstone Field Converter
+nc.sf.villiaumiteconverter_coil0=%s Villiaumite Redstone Field Converter
+nc.sf.villiaumiteconverter_coil1=%s Villiaumite Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_zirconiumconverter.name=Zirconium Redstone Field Converter
+nc.sf.zirconiumconverter_coil0=%s Zirconium Redstone Field Converter
+nc.sf.zirconiumconverter_coil1=%s Zirconium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_glowstoneconverter.name=Glowstone Redstone Field Converter
+nc.sf.glowstoneconverter_coil0=%s Glowstone Redstone Field Converter
+nc.sf.glowstoneconverter_coil1=%s Glowstone Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_quartzconverter.name=Quartz Redstone Field Converter
+nc.sf.quartzconverter_coil0=%s Quartz Redstone Field Converter
+nc.sf.quartzconverter_coil1=%s Quartz Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_molybdenumconverter.name=Molybdenum Redstone Field Converter
+nc.sf.molybdenumconverter_coil0=%s Molybdenum Redstone Field Converter
+nc.sf.molybdenumconverter_coil1=%s Molybdenum Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_endstoneconverter.name=Endstone Redstone Field Converter
+nc.sf.endstoneconverter_coil0=%s Endstone Redstone Field Converter
+nc.sf.endstoneconverter_coil1=%s Endstone Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_purpurconverter.name=Purpur Redstone Field Converter
+nc.sf.purpurconverter_coil0=%s Purpur Redstone Field Converter
+nc.sf.purpurconverter_coil1=%s Purpur Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_cobaltconverter.name=Cobalt Redstone Field Converter
+nc.sf.cobaltconverter_coil0=%s Cobalt Redstone Field Converter
+nc.sf.cobaltconverter_coil1=%s Cobalt Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_lumiumconverter.name=Lumium Redstone Field Converter
+nc.sf.lumiumconverter_coil0=%s Lumium Redstone Field Converter
+nc.sf.lumiumconverter_coil1=%s Lumium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_bariumconverter.name=Barium Redstone Field Converter
+nc.sf.bariumconverter_coil0=%s Barium Redstone Field Converter
+nc.sf.bariumconverter_coil1=%s Barium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_witheriteconverter.name=Witherite Redstone Field Converter
+nc.sf.witheriteconverter_coil0=%s Witherite Redstone Field Converter
+nc.sf.witheriteconverter_coil1=%s Witherite Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_promethium147converter.name=Promethium-147 Redstone Field Converter
+nc.sf.promethium147converter_coil0=%s Promethium-147 Redstone Field Converter
+nc.sf.promethium147converter_coil1=%s Promethium-147 Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_promethium147converter.name=Mercury Redstone Field Converter
+nc.sf.promethium147converter_coil0=%s Mercury Redstone Field Converter
+nc.sf.promethium147converter_coil1=%s Mercury Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_niobiumtinconverter.name=Niobium-Tin Redstone Field Converter
+nc.sf.niobiumtinconverter_coil0=%s Niobium-Tin Redstone Field Converter
+nc.sf.niobiumtinconverter_coil1=%s Niobium-Tin Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_baratolconverter.name=Baratol Redstone Field Converter
+nc.sf.baratolconverter_coil0=%s Baratol Redstone Field Converter
+nc.sf.baratolconverter_coil1=%s Baratol Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_gold198converter.name=Gold-198 Redstone Field Converter
+nc.sf.gold198converter_coil0=%s Gold-198 Redstone Field Converter
+nc.sf.gold198converter_coil1=%s Gold-198 Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_europium155converter.name=Europium-155 Redstone Field Converter
+nc.sf.europium155converter_coil0=%s Europium-155 Redstone Field Converter
+nc.sf.europium155converter_coil1=%s Europium-155 Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_strontiumconverter.name=Strontium Redstone Field Converter
+nc.sf.strontiumconverter_coil0=%s Strontium Redstone Field Converter
+nc.sf.strontiumconverter_coil1=%s Strontium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_enderiumconverter.name=Enderium Redstone Field Converter
+nc.sf.enderiumconverter_coil0=%s Enderium Redstone Field Converter
+nc.sf.enderiumconverter_coil1=%s Enderium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_terbiumconverter.name=Terbium Redstone Field Converter
+nc.sf.terbiumconverter_coil0=%s Terbium Redstone Field Converter
+nc.sf.terbiumconverter_coil1=%s Terbium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_ytterbiumconverter.name=Ytterbium Redstone Field Converter
+nc.sf.ytterbiumconverter_coil0=%s Ytterbium Redstone Field Converter
+nc.sf.ytterbiumconverter_coil1=%s Ytterbium Redstone Field Converters
+tile.nuclearcraft.turbine_dynamo_coil_antitritiumconverter.name=Anti-Tritium Redstone Field Converter
+nc.sf.antitritiumconverter_coil0=%s Anti-Tritium Redstone Field Converter
+nc.sf.antitritiumconverter_coil1=%s Anti-Tritium Redstone Field Converters
+
+//Extractor
+tile.nuclearcraft.turbine_dynamo_coil_baseextractor.name=Basic Energy Extractor
+nc.sf.baseextractor_coil0=%s Basic Energy Extractor
+nc.sf.baseextractor_coil1=%s Basic Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_redstoneextractor.name=Redstone Energy Extractor
+nc.sf.redstoneextractor_coil0=%s Redstone Energy Extractor
+nc.sf.redstoneextractor_coil1=%s Redstone Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_aluminiumextractor.name=Aluminium Energy Extractor
+nc.sf.aluminiumextractor_coil0=%s Aluminium Energy Extractor
+nc.sf.aluminiumextractor_coil1=%s Aluminium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_copperextractor.name=Copper Energy Extractor
+nc.sf.copperextractor_coil0=%s Copper Energy Extractor
+nc.sf.copperextractor_coil1=%s Copper Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_goldextractor.name=Gold Energy Extractor
+nc.sf.goldextractor_coil0=%s Gold Energy Extractor
+nc.sf.goldextractor_coil1=%s Gold Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_berylliumextractor.name=Beryllium Energy Extractor
+nc.sf.berylliumextractor_coil0=%s Beryllium Energy Extractor
+nc.sf.berylliumextractor_coil1=%s Beryllium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_graphiteextractor.name=Graphite Energy Extractor
+nc.sf.graphiteextractor_coil0=%s Graphite Energy Extractor
+nc.sf.graphiteextractor_coil1=%s Graphite Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_magnesiumextractor.name=Magnesium Energy Extractor
+nc.sf.magnesiumextractor_coil0=%s Magnesium Energy Extractor
+nc.sf.magnesiumextractor_coil1=%s Magnesium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_silverextractor.name=Silver Energy Extractor
+nc.sf.silverextractor_coil0=%s Silver Energy Extractor
+nc.sf.silverextractor_coil1=%s Silver Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_signalumextractor.name=Signalum Energy Extractor
+nc.sf.signalumextractor_coil0=%s Signalum Energy Extractor
+nc.sf.signalumextractor_coil1=%s Signalum Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_smoreextractor.name=S'More S'Mingot Energy Extractor
+nc.sf.smoreextractor_coil0=%s S'More S'Mingot Energy Extractor
+nc.sf.smoreextractor_coil1=%s S'More S'Mingot Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_electrumextractor.name=Electrum Energy Extractor
+nc.sf.electrumextractor_coil0=%s Electrum Energy Extractor
+nc.sf.electrumextractor_coil1=%s Electrum Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_calciumextractor.name=Calcium Energy Extractor
+nc.sf.calciumextractor_coil0=%s Calcium Energy Extractor
+nc.sf.calciumextractor_coil1=%s Calcium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_hafniumextractor.name=Hafnium Energy Extractor
+nc.sf.hafniumextractor_coil0=%s Hafnium Energy Extractor
+nc.sf.hafniumextractor_coil1=%s Hafnium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_lithium6deuterideextractor.name=Lithium-6 Deuteride Energy Extractor
+nc.sf.lithium6deuterideextractor_coil0=%s Lithium-6 Deuteride Energy Extractor
+nc.sf.lithium6deuterideextractor_coil1=%s Lithium-6 Deuteride Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_superalloyextractor.name=Super Alloy Energy Extractor
+nc.sf.superalloyextractor_coil0=%s Super Alloy Energy Extractor
+nc.sf.superalloyextractor_coil1=%s Super Alloy Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_yttriumextractor.name=Yttrium Energy Extractor
+nc.sf.yttriumextractor_coil0=%s Yttrium Energy Extractor
+nc.sf.yttriumextractor_coil1=%s Yttrium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_platinumextractor.name=Platinum Energy Extractor
+nc.sf.platinumextractor_coil0=%s Platinum Energy Extractor
+nc.sf.platinumextractor_coil1=%s Platinum Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_erbiumextractor.name=Erbium Energy Extractor
+nc.sf.erbiumextractor_coil0=%s Erbium Energy Extractor
+nc.sf.erbiumextractor_coil1=%s Erbium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_radioactiveearthextractor.name=Radioactive Earth Energy Extractor
+nc.sf.radioactiveearthextractor_coil0=%s Radioactive Earth Energy Extractor
+nc.sf.radioactiveearthextractor_coil1=%s Radioactive Earth Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_osmiridiumextractor.name=Osmiridium Energy Extractor
+nc.sf.osmiridiumextractor_coil0=%s Osmiridium Energy Extractor
+nc.sf.osmiridiumextractor_coil1=%s Osmiridium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_antiheliumextractor.name=Anti-Helium Energy Extractor
+nc.sf.antiheliumextractor_coil0=%s Anti-Helium Energy Extractor
+nc.sf.antiheliumextractor_coil1=%s Anti-Helium Energy Extractors
+tile.nuclearcraft.turbine_dynamo_coil_antihelium3extractor.name=Anti-Helium-3 Energy Extractor
+nc.sf.antihelium3extractor_coil0=%s Anti-Helium-3 Energy Extractor
+nc.sf.antihelium3extractor_coil1=%s Anti-Helium-3 Energy Extractors
+
+
+//tile.nuclearcraft.turbine_rotor_stator_thorium.name=Thorium tempered Turbine Rotor Stator
+//tile.nuclearcraft.turbine_rotor_stator_uranium.name=DU tempered Turbine Rotor Stator
+//tile.nuclearcraft.turbine_rotor_blade_neptunium.name=Neptunium tempered Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_plutonium.name=Plutonium tempered Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_americium.name=Americium tempered Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_curium.name=Curium tempered Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_berkelium.name=Berkelium tempered Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_californium.name=Californium tempered Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_niosteel.name=Niobium-Steel Alloy Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_extremenio.name=Extreme-Niobium Alloy Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_sicnio.name=SiC-Niobium-CMC Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_elektron90.name=Unwieldy Elektron90 Alloy Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_elektron192.name=Unwieldy Elektron192 Alloy Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_elektron231.name=Unwieldy Elektron231 Alloy Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_edelstahl.name=Ultra Light Edelstahl Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_legierung.name=Ultra Light Edle Elektronlegierung Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_matrix.name=Ultra Light Matrix-Legierung Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_blade_copernicum.name=Superalloyed Copernicum Turbine Rotor Blade
+//tile.nuclearcraft.turbine_rotor_stator_elektron.name=Elektron60-Alloy Turbine Rotor Stator
+//tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
+
+
+# ThoriumMixedFuels
+
+item.nuclearcraft.thoriumfuels.uat233.name=UAT-233 
+item.nuclearcraft.thoriumfuels.uat235.name=UAT-235 
+item.nuclearcraft.thoriumfuels.nat236.name=NAT-236 
+item.nuclearcraft.thoriumfuels.pat239.name=PAT-239
+item.nuclearcraft.thoriumfuels.pat241.name=PAT-241 
+item.nuclearcraft.thoriumfuels.aat242.name=AAT-242 
+item.nuclearcraft.thoriumfuels.cmat243.name=CmAT-243 
+item.nuclearcraft.thoriumfuels.cmat245.name=CmAT-245 
+item.nuclearcraft.thoriumfuels.cmat247.name=CmAT-247 
+item.nuclearcraft.thoriumfuels.bat248.name=BAT-248 
+item.nuclearcraft.thoriumfuels.cfat249.name=CfAT-249 
+item.nuclearcraft.thoriumfuels.cfat251.name=CfAT-251 
+
+item.nuclearcraft.thoriumfuels.uat233_ni.name=UAT-233 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.uat235_ni.name=UAT-235 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.nat236_ni.name=NAT-236 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.pat239_ni.name=PAT-239 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.pat241_ni.name=PAT-241 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.aat242_ni.name=AAT-242 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat243_ni.name=CmAT-243 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat245_ni.name=CmAT-245 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat247_ni.name=CmAT-247 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.bat248_ni.name=BAT-248 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.cfat249_ni.name=CfAT-249 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.cfat251_ni.name=CfAT-251 Nitride Fuel Pellet
+
+item.nuclearcraft.thoriumfuels.uat233_ox.name=UAT-233 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.uat235_ox.name=UAT-235 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.nat236_ox.name=NAT-236 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.pat239_ox.name=PAT-239 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.pat241_ox.name=PAT-241 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.aat242_ox.name=AAT-242 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat243_ox.name=CmAT-243 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat245_ox.name=CmAT-245 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat247_ox.name=CmAT-247 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.bat248_ox.name=BAT-248 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.cfat249_ox.name=CfAT-249 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.cfat251_ox.name=CfAT-251 Oxide Fuel Pellet
+
+item.nuclearcraft.thoriumfuels.uat233_za.name=UAT-233 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.uat235_za.name=UAT-235 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.nat236_za.name=NAT-236 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.pat239_za.name=PAT-239 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.pat241_za.name=PAT-241 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.aat242_za.name=AAT-242 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat243_za.name=CmAT-243 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat245_za.name=CmAT-245 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.cmat247_za.name=CmAT-247 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.bat248_za.name=BAT-248 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.cfat249_za.name=CfAT-249 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.cfat251_za.name=CfAT-251 Zirconium Alloy Fuel Pellet
+
+item.nuclearcraft.thoriumfuels.depleted_uat233_ni.name=Depleted UAT-233 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_uat235_ni.name=Depleted UAT-235 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_nat236_ni.name=Depleted NAT-236 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_pat239_ni.name=Depleted PAT-239 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_pat241_ni.name=Depleted PAT-241 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_aat242_ni.name=Depleted AAT-242 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat243_ni.name=Depleted CmAT-243 Nitride  Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat245_ni.name=Depleted CmAT-245 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat247_ni.name=Depleted CmAT-247 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_bat248_ni.name=Depleted BAT-248 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cfat249_ni.name=Depleted CfAT-249 Nitride Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cfat251_ni.name=Depleted CfAT-251 Nitride Fuel Pellet
+
+item.nuclearcraft.thoriumfuels.depleted_uat233_ox.name=Depleted UAT-233 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_uat235_ox.name=Depleted UAT-235 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_nat236_ox.name=Depleted NAT-236 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_pat239_ox.name=Depleted PAT-239 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_pat241_ox.name=Depleted PAT-241 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_aat242_ox.name=Depleted AAT-242 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat243_ox.name=Depleted CmAT-243 Oxide  Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat245_ox.name=Depleted CmAT-245 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat247_ox.name=Depleted CmAT-247 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_bat248_ox.name=Depleted BAT-248 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cfat249_ox.name=Depleted CfAT-249 Oxide Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cfat251_ox.name=Depleted CfAT-251 Oxide Fuel Pellet
+
+item.nuclearcraft.thoriumfuels.depleted_uat233_za.name=Depleted UAT-233 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_uat235_za.name=Depleted UAT-235 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_nat236_za.name=Depleted NAT-236 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_pat239_za.name=Depleted PAT-239 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_pat241_za.name=Depleted PAT-241 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_aat242_za.name=Depleted AAT-242 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat243_za.name=Depleted CmAT-243 Zirconium Alloy  Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat245_za.name=Depleted CmAT-245 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cmat247_za.name=Depleted CmAT-247 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_bat248_za.name=Depleted BAT-248 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cfat249_za.name=Depleted CfAT-249 Zirconium Alloy Fuel Pellet
+item.nuclearcraft.thoriumfuels.depleted_cfat251_za.name=Depleted CfAT-251 Zirconium Alloy Fuel Pellet
+
+
+
+# MoarRealisticEnrichment
+
+item.contenttweaker.salt.name=Salt
+fluid.salty_solution=Salty Solution
+fluid.cl2=Chlorine
+
+fluid.clf3=Chlorine Trifluoride
+
+fluid.duf6=Depleted Uranium Hexafluoride
+fluid.nuf6=Natural Uranium Hexafluoride
+fluid.leuf6=Low Enriched Uranium Hexafluoride
+fluid.meuf6=Medium Enriched Uranium Hexafluoride
+fluid.heuf6=Highly Enriched Uranium Hexafluoride
+fluid.vheuf6=Very Highly Enriched Uranium Hexafluoride
+fluid.xeuf6=Extremely Enriched Uranium Hexafluoride
+fluid.seuf6=Super Enriched Uranium Hexafluoride
+fluid.ueuf6=Ultra-Enriched Uranium Hexafluoride
+fluid.wguf6=Weapons Grade Uranium Hexafluoride
+fluid.ipuf6=Isotopically Pure Uranium Hexafluoride
+
+fluid.le_water=Low Enriched Water
+fluid.me_water=Medium Enriched Water
+fluid.he_water=Highly Enriched Water
+fluid.vhe_water=Very Highly Enriched Water
+fluid.xe_water=Extremely Enriched Water
+fluid.se_water=Super Enriched Water
+fluid.ue_water=Ultra Enriched Water
+fluid.te_water=Tremendously Enriched Water
+
+fluid.hydrogen_sulfide=Hydrogen Sulfide
+fluid.le_hydrogen_sulfide=Low Enriched Hydrogen Sulfide
+fluid.me_hydrogen_sulfide=Medium Enriched Hydrogen Sulfide
+fluid.he_hydrogen_sulfide=Highly Enriched Hydrogen Sulfide
+
+# AlloyHeatSinks
+
+tile.nuclearcraft.solid_fission_sink_magnalium.name=Magnalium Fission Heat Sink
+tile.nuclearcraft.solid_fission_sink_hydronalium.name=Hydronalium Fission Heat Sink
+tile.nuclearcraft.solid_fission_sink_billon.name=Billon Fission Heat Sink
+tile.nuclearcraft.solid_fission_sink_brass.name=Brass Fission Heat Sink
+tile.nuclearcraft.solid_fission_sink_nitinol.name=Nitinol Fission Heat Sink
+tile.nuclearcraft.solid_fission_sink_ni_be.name=Nickel Beryllium Fission Heat Sink
+tile.nuclearcraft.solid_fission_sink_ferrochrome.name=Ferrochrome Fission Heat Sink
+
+
+nc.sf.magnalium_sink0=%s magnalium heat sink
+nc.sf.magnalium_sink1=%s magnalium heat sinks
+
+nc.sf.hydronalium_sink0=%s hydronalium heat sink
+nc.sf.hydronalium_sink1=%s hydronalium heat sinks
+
+nc.sf.billon_sink0=%s billon heat sink
+nc.sf.billon_sink1=%s billon heat sinks
+
+nc.sf.brass_sink0=%s brass heat sink
+nc.sf.brass_sink1=%s brass heat sinks
+
+nc.sf.nitinol_sink0=%s nitinol heat sink
+nc.sf.nitinol_sink1=%s nitinol heat sinks
+
+nc.sf.ferrochrome_sink0=%s ferrochrome heat sink
+nc.sf.ferrochrome_sink1=%s ferrochrome heat sinks
+
+nc.sf.ni_be_sink0=%s ni_be heat sink
+nc.sf.ni_be_sink1=%s ni_be heat sinks
+
+
+tile.nuclearcraft.fission_heater_port_magnalium.name=Magnalium Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_magnalium.name=Magnalium Coolant Heater
+
+tile.nuclearcraft.fission_heater_port_hydronalium.name=Hydronalium Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_hydronalium.name=Hydronalium Coolant Heater
+
+tile.nuclearcraft.fission_heater_port_billon.name=Billon Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_billon.name=Billon Coolant Heater
+
+tile.nuclearcraft.fission_heater_port_brass.name=Brass Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_brass.name=Brass Coolant Heater
+
+tile.nuclearcraft.fission_heater_port_ferrochrome.name=Ferrochrome Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_ferrochrome.name=Ferrochrome Coolant Heater
+
+tile.nuclearcraft.fission_heater_port_nitinol.name=Nitinol Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_nitinol.name=Nitinol Coolant Heater
+
+tile.nuclearcraft.fission_heater_port_ni_be.name=Nickel Beryllium Coolant Heater Port
+tile.nuclearcraft.salt_fission_heater_ni_be.name=Nickel Beryllium Coolant Heater
+
+
+nc.sf.magnalium_heater0=%s magnalium heater
+nc.sf.magnalium_heater1=%s magnalium heaters
+
+nc.sf.hydronalium_heater0=%s hydronalium heater
+nc.sf.hydronalium_heater1=%s hydronalium heaters
+
+nc.sf.billon_heater0=%s billon heater
+nc.sf.billon_heater1=%s billon heaters
+
+nc.sf.brass_heater0=%s brass heater
+nc.sf.brass_heater1=%s brass heaters
+
+nc.sf.ferrochrome_heater0=%s ferrochrome heater
+nc.sf.ferrochrome_heater1=%s ferrochrome heaters
+
+nc.sf.nitinol_heater0=%s nitinol heater
+nc.sf.nitinol_heater1=%s nitinol heaters
+
+nc.sf.ni_be_heater0=%s ni_be heater
+nc.sf.ni_be_heater1=%s ni_be heaters
+
+
+fluid.magnalium_nak=Eutectic NaK-Magnalium Mixture
+fluid.magnalium_nak_hot=Hot Eutectic NaK-Magnalium Mixture
+
+fluid.hydronalium_nak=Eutectic NaK-Hydronalium Mixture
+fluid.hydronalium_nak_hot=Hot Eutectic NaK-Hydronalium Mixture
+
+fluid.billon_nak=Eutectic NaK-Billon Mixture
+fluid.billon_nak_hot=Hot Eutectic NaK-Billon Mixture
+
+fluid.brass_nak=Eutectic NaK-Brass Mixture
+fluid.brass_nak_hot=Hot Eutectic NaK-Brass Mixture
+
+fluid.ferrochrome_nak=Eutectic NaK-Ferrochrome Mixture
+fluid.ferrochrome_nak_hot=Hot Eutectic NaK-Ferrochrome Mixture
+
+fluid.nitinol_nak=Eutectic NaK-Nitinol Mixture
+fluid.nitinol_nak_hot=Hot Eutectic NaK-Nitinol Mixture
+
+fluid.ni_be_nak=Eutectic NaK-Nickel Beryllium Mixture
+fluid.ni_be_nak_hot=Hot Eutectic NaK-Nickel Beryllium Mixture
+
+fluid.magnalium=Molten Magnalium Alloy
+fluid.hydronalium=Molten Hydronalium Alloy
+fluid.billon=Molten Billon Alloy
+fluid.brass=Molten Brass Alloy
+fluid.ferrochrome=Molten Ferrochrome Alloy
+fluid.nitinol=Molten Nitinol Alloy
+fluid.ni_be=Molten Nickel Beryllium Alloy
+
+item.contenttweaker.ingot_magnalium.name=Magnalium Ingot
+item.contenttweaker.ingot_hydronalium.name=Hydronalium Ingot
+item.contenttweaker.ingot_billon.name=Billon Ingot
+item.contenttweaker.ingot_brass.name=Brass Ingot
+item.contenttweaker.ingot_ferrochrome.name=Ferrochrome Ingot
+item.contenttweaker.ingot_nitinol.name=Nitinol Ingot
+item.contenttweaker.ingot_ni_be.name=Nickel-Beryllium Ingot
 
 # MoarHeatSinks
 

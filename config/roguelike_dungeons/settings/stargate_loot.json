@@ -1,0 +1,38 @@
+{
+	"name" : "custom:stargate_loot",
+	"loot_rules" : [
+		{
+            "level": 4,
+			"loot" : [
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:500000000L}"}, "weight" : 1},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:400000000L}"}, "weight" : 1},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:300000000L}"}, "weight" : 1},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:200000000L}"}, "weight" : 1},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:100000000L}"}, "weight" : 2},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:90000000L}"}, "weight" : 2},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:80000000L}"}, "weight" : 2},
+				{"data" : {"name" : "jsg:zpm", "nbt" : "{longEnergy:70000000L}"}, "weight" : 2},
+				{"data" : {"name" : "jsg:hammer"}, "weight" : 9},
+				{"data" : {"name" : "jsg:zpm_hub_block"}, "weight" : 1},
+				{"data" : {"name" : "jsg:dhd_block"}, "weight" : 1},
+				{"data" : {"name" : "jsg:capacitor_block"}, "weight" : 2},
+				{"data" : {"name" : "jsg:crystal_control_dhd"}, "weight" : 2},
+				{"data" : {"name" : "jsg:zpm_slot_block"}, "weight" : 2}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+        {
+			"level" : [0, 1, 2, 3, 4],
+            "type" : "ORE",
+			"loot" : [
+				{"data" : {"name" : "jsg:trinium_ingot", "min" : 1, "max" : 4}, "weight" : 1},
+				{"data" : {"name" : "jsg:naquadah_alloy", "min" : 1, "max" : 4}, "weight" : 1},
+				{"data" : {"name" : "jsg:naquadah_alloy_raw", "min" : 1, "max" : 4}, "weight" : 3},
+				{"data" : {"name" : "jsg:titanium_ingot", "min" : 1, "max" : 4}, "weight" : 3}
+			],
+			"each" : true,
+			"quantity" : 4
+		}
+	]
+}

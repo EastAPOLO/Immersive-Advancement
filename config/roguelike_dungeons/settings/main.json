@@ -1,0 +1,16 @@
+{
+	"name" : "custom:main",
+	"exclusive" : false,
+	"criteria" : {
+		"biomeTypes" : [
+            "PLAINS",
+            "FOREST",
+            "MESA",
+            "SAVANNA",
+            "JUNGLE"
+		]
+	},
+    "inherit" : [
+        "custom:loot"
+    ]
+}

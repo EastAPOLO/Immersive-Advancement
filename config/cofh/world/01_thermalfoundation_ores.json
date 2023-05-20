@@ -273,7 +273,6 @@
 				]
 			}
 		},
-
 		"copper_ocean": {
 			"enabled": "true",
 			"distribution": "uniform",

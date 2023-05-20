@@ -1,1 +1,5 @@
 item.contenttweaker.sponge_iron.name=Sponge Iron
+item.contenttweaker.magnetic_tape.name=Magnetic Tape
+fluid.salty_nitric_acid=Salty Nitric Acid
+fluid.b20=B20
+fluid.well_pressed_water=Well Pressurized Water

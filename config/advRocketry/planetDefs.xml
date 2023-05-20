@@ -199,13 +199,5 @@
             <orbitalTheta>94</orbitalTheta>
             <orbitalDistance>80</orbitalDistance>
         </planet>
-        <planet DIMID="-1" name="Nether" customIcon="lava">
-            <orbitalTheta>94</orbitalTheta>
-            <orbitalDistance>30</orbitalDistance>
-        </planet>
-        <planet DIMID="1" name="End" customIcon="venusian">
-            <orbitalTheta>94</orbitalTheta>
-            <orbitalDistance>400</orbitalDistance>
-        </planet>
     </star>
 </galaxy>
