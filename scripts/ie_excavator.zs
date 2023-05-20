@@ -34,7 +34,7 @@ mods.immersiveengineering.Excavator.addMineral("Iron", 30, 0.1, ["oreIron", "ore
 mods.immersiveengineering.Excavator.addMineral("Magnetite", 30, 0.1, ["oreIron", "oreGold"], [0.85, 0.15], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Pyrite", 20, 0.1, ["oreIron", "dustSulfur"], [0.5, 0.5], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Bauxite", 25, 0.2, ["oreAluminum"], [1.0], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
-mods.immersiveengineering.Excavator.addMineral("Copper", 30, 0.2, ["oreCopper", "oreGold", "oreNickel"], [0.7, 0.2, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
+mods.immersiveengineering.Excavator.addMineral("Copper", 25, 0.2, ["oreCopper", "oreGold", "oreNickel"], [0.7, 0.2, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Cassiterite", 20, 0.2, ["oreTin"], [1.0], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Gold", 20, 0.3, ["oreGold", "oreCopper", "oreNickel"], [0.7, 0.2, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Nickel", 20, 0.3, ["oreNickel", "orePlatinum", "oreIron"], [0.8, 0.1, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
@@ -46,7 +46,7 @@ mods.immersiveengineering.Excavator.addMineral("Galena", 20, 0.1, ["oreLead", "o
 mods.immersiveengineering.Excavator.addMineral("Silver", 20, 0.2, ["oreSilver", "oreLead"], [0.6, 0.4], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Lapis", 15, 0.2, ["oreLapis", "oreIron", "dustSulfur"], [0.7, 0.2, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Cinnabar", 20, 0.1, ["oreRedstone", "dustSulfur"], [0.9, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
-mods.immersiveengineering.Excavator.addMineral("Coal", 25, 0.1, ["oreCoal", "oreDiamond", "oreEmerald"], [0.98, 0.01, 0.01], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
+mods.immersiveengineering.Excavator.addMineral("Coal", 30, 0.1, ["oreCoal", "oreDiamond", "oreEmerald"], [0.98, 0.01, 0.01], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Silt", 25, 0.05, ["blockClay", "sand", "gravel"], [0.5, 0.3, 0.2], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Scheelite", 15, 0.15, ["oreTungsten", "dustCalcium"], [0.9, 0.1], [0, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
 mods.immersiveengineering.Excavator.addMineral("Naquadah", 15, 0.1, ["oreNaquadahRaw"], [1.0], [-1, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], false);
